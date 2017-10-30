@@ -30,17 +30,17 @@ Team project, done as an assignment for developing skills for working in a team 
   7.3 Photo materials
   7.4 Other
 8. Teamwork assgnment
-  8.1 - Main Page(Home) - 
-  8.2 - Registration Page - 
-  8.3 - Login Page - 
-  8.4 - View Upcomming Events Page - 
-  8.5 - Browse categories of events Page - 
-  8.6 - Advanced search (by category, date, price, location, etc.) Page - 
-  8.7 - View details about an event (information, location, date, price and availability of tickets) Page - 
-  8.8 - Purchase tickets Page - 
-  8.9 - Manage user profile Page - 
-  8.10 - Create events Page - 
-  8.11 - Edit events Page - 
-  8.12 - Delete events Page - 
-  8.13 - Manage available tickets Page - 
+  #8.1 - Main Page(Home) - 
+  #8.2 - Registration Page - 
+  #8.3 - Login Page - 
+  #8.4 - View Upcomming Events Page - 
+  #8.5 - Browse categories of events Page - 
+  #8.6 - Advanced search (by category, date, price, location, etc.) Page - 
+  #8.7 - View details about an event (information, location, date, price and availability of tickets) Page - 
+  #8.8 - Purchase tickets Page - 
+  #8.9 - Manage user profile Page - 
+  #8.10 - Create events Page - 
+  #8.11 - Edit events Page - 
+  #8.12 - Delete events Page - 
+  #8.13 - Manage available tickets Page - 
 9. Other
