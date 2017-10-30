@@ -43,4 +43,5 @@ Team project, done as an assignment for developing skills for working in a team 
   #8.11 - Edit events Page - 
   #8.12 - Delete events Page - 
   #8.13 - Manage available tickets Page - 
-9. Other
+9. Other - tech spec, additional docs
+10. Presentation
