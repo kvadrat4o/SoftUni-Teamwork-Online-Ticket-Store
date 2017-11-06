@@ -1,0 +1,1117 @@
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.0.72"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                Id="9dee0bb5-e833-42bb-b1f3-a567a19835c7">
+    <Page.Content>
+        <Content Width="1286" Height="1000" Id="f0cca1de-5267-48c6-897d-23cedb2e3d08">
+            <Content.Layers>
+                <Layer Id="cea6a7bd-9bd8-4bb2-b072-122bb87da637" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="1d714c60-f611-4577-bede-ad996080eba7" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="1286,1000" Id="932fc50e-2fc0-46ed-8b16-3116055aa571" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="eb973c3d-9220-47ad-8cde-d26f94d907f7" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="Browser" Orientation="None" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="10/31/2017 07:38:47" Id="745482db-8bc3-449c-9e01-3da737c9154f">
+            <Scene.KeyFrames>
+                <KeyFrame Id="88245748-bb03-4f68-8e65-e30dedf00cb0">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="cea6a7bd-9bd8-4bb2-b072-122bb87da637">
+                            <Add.Item>
+                                <ContainerBox Background="#FFD3E1B5" Id="87a46dfa-9556-4c87-b482-b2b80f46c03f" Panel.Bounds="1,1,1286{5,2147483647},1000{5,2147483647}">
+                                    <ContainerBox.Content>
+                                        <Container ClipToContainer="True" Id="60e4b2aa-ce10-4374-9c45-7d3bbb0d6e5f" />
+                                    </ContainerBox.Content>
+                                </ContainerBox>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="cea6a7bd-9bd8-4bb2-b072-122bb87da637">
+                            <Add.Item>
+                                <Line Thickness="1" RotationAngle="0.0515713447706077" Color="#FFA6C36B" Background="#00FFFFFF" Id="0c161277-4994-4d73-8aff-4fdb7124a8b8" Panel.Bounds="71,919,1111{1,2147483647},3{1,2147483647}">
+                                    <Line.StartPoint>
+                                        <Point X="35" Y="9" Id="958b47e6-e079-4d81-a9f6-1f78a50a674b" />
+                                    </Line.StartPoint>
+                                    <Line.Segments>
+                                        <Segment Id="0cf7c9b3-3ede-470d-92e5-fa9a72cc4625">
+                                            <Segment.EndPoint>
+                                                <Point X="1146" Y="10" Id="e5598a33-0b6a-422d-b38f-f2f8f56e6c62" />
+                                            </Segment.EndPoint>
+                                        </Segment>
+                                    </Line.Segments>
+                                </Line>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="cea6a7bd-9bd8-4bb2-b072-122bb87da637">
+                            <Add.Item>
+                                <Icon Color="#FFAAAAAA" CatalogId="fa-apple" Id="cfe9db04-63ce-4dba-86f1-3d8d4fcf5578" Panel.Bounds="60,860,32{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="cea6a7bd-9bd8-4bb2-b072-122bb87da637">
+                            <Add.Item>
+                                <Icon Color="#FF4281D0" CatalogId="fa-twitter" Id="6259bb9e-50cb-4f63-ae12-14d631821f8d" Panel.Bounds="177,860,32{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="cea6a7bd-9bd8-4bb2-b072-122bb87da637">
+                            <Add.Item>
+                                <Icon Color="#FF48C157" CatalogId="fa-android" Id="1fd39f46-da78-43ba-a79c-7880ab8fabed" Panel.Bounds="115,860,32{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="cea6a7bd-9bd8-4bb2-b072-122bb87da637">
+                            <Add.Item>
+                                <Icon Color="#FF6397C4" CatalogId="fa-skype" Id="a912cfe8-dffe-451f-a031-e79b2c0fc370" Panel.Bounds="239,860,32{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="cea6a7bd-9bd8-4bb2-b072-122bb87da637">
+                            <Add.Item>
+                                <TextBox Text="Emali address here..." Background="#FFE2E2E2" Id="066031e6-1c17-4acb-becb-29dad4517c0f" Panel.Bounds="60,800,225{5,2147483647},0*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="cea6a7bd-9bd8-4bb2-b072-122bb87da637">
+                            <Add.Item>
+                                <Button Text="Contact Us" Background="#FF75D181" CornerRadius="8" Id="b68b964f-45ec-4799-845e-04fb67899bcc" Panel.Bounds="307,790,80{5,2147483647},39{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="cea6a7bd-9bd8-4bb2-b072-122bb87da637">
+                            <Add.Item>
+                                <Link Text="Privacy Policy" Foreground="#FF555555" FontStyle="Normal|Underline" Id="0ca12313-f1bb-413e-9cb4-012d41314494" Panel.Bounds="1064,790,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="cea6a7bd-9bd8-4bb2-b072-122bb87da637">
+                            <Add.Item>
+                                <Link Text="Networks" Foreground="#FF555555" FontStyle="Normal|Underline" Id="894cc31c-f013-4f53-a41d-2d754c3892d0" Panel.Bounds="1069,832,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="cea6a7bd-9bd8-4bb2-b072-122bb87da637">
+                            <Add.Item>
+                                <Link Text="Become a vip member" Foreground="#FF555555" FontStyle="Normal|Underline" Id="fb52af96-881b-4a64-919d-e1a7bc5c6d75" Panel.Bounds="1049,874,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="cea6a7bd-9bd8-4bb2-b072-122bb87da637">
+                            <Add.Item>
+                                <Label RichText="NAVIGATE..." FontStyle="Bold" Id="365881b1-6cc5-43dc-b9e8-d391dda9141c" Panel.Bounds="995,755,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="cea6a7bd-9bd8-4bb2-b072-122bb87da637">
+                            <Add.Item>
+                                <Label RichText="STAY CONNECTED..." FontStyle="Bold" Id="87211a3b-42d6-4777-a689-40c6b6977343" Panel.Bounds="91,755,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="cea6a7bd-9bd8-4bb2-b072-122bb87da637">
+                            <Add.Item>
+                                <Link Text="Events" Foreground="#FF555555" FontStyle="Normal|Underline" Id="fe41d874-6238-4e39-9178-613e96e5e480" Panel.Bounds="933,790,5*{5,2147483647},5*{5,2147483647}">
+                                    <Link.Click>
+                                        <CommandNavigate Screen="/View Events (Logged).screen" Created="11/03/2017 07:57:45" Id="3eeb5bf6-397a-4b7f-b1c8-42034a6048a1">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Link.Click>
+                                </Link>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="cea6a7bd-9bd8-4bb2-b072-122bb87da637">
+                            <Add.Item>
+                                <Link Text="Categories" Foreground="#FF555555" FontStyle="Normal|Underline" Id="e31297ba-2370-4ec5-b0bf-7d2dca3e333b" Panel.Bounds="924,874,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="cea6a7bd-9bd8-4bb2-b072-122bb87da637">
+                            <Add.Item>
+                                <Link Text="Terms &amp; Conditions" Foreground="#FF555555" FontStyle="Normal|Underline" Id="54641534-fd61-4506-adfd-24a8b410863a" Panel.Bounds="901,832,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="cea6a7bd-9bd8-4bb2-b072-122bb87da637">
+                            <Add.Item>
+                                <Label RichText="SAMPE ARTICLE ..." FontStyle="Bold" Id="c598f5bb-ac03-466b-a510-0a2688a75954" Panel.Bounds="538,755,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="cea6a7bd-9bd8-4bb2-b072-122bb87da637">
+                            <Add.Item>
+                                <Label RichText="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget nibh risus. Curabitur posuere ex nec magna pretium, hendrerit iaculis sem condimentum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque vel facilisis sapien, vel luctus risus." Id="ff88e384-aa62-4289-8e84-74f7233602a1" Panel.Bounds="451,790,356{5,2147483647},102{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="cea6a7bd-9bd8-4bb2-b072-122bb87da637">
+                            <Add.Item>
+                                <Line Thickness="1" RotationAngle="0.192105833396013" Color="#FF8DAE47" Background="#00FFFFFF" Id="fff09a34-731a-4ef4-b97a-aa77804a3227" Panel.Bounds="41,973,1193{1,2147483647},4{1,2147483647}">
+                                    <Line.StartPoint>
+                                        <Point X="-482" Y="-5" Id="e4927e06-12f5-4487-bef6-eab85f2bc3c1" />
+                                    </Line.StartPoint>
+                                    <Line.Segments>
+                                        <Segment Id="c41dc543-9f60-4658-babd-d107baffbb9e">
+                                            <Segment.EndPoint>
+                                                <Point X="711" Y="-1" Id="256994bb-5710-4e9a-83a6-a3fbcd3085d8" />
+                                            </Segment.EndPoint>
+                                        </Segment>
+                                    </Line.Segments>
+                                </Line>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="cea6a7bd-9bd8-4bb2-b072-122bb87da637">
+                            <Add.Item>
+                                <Label RichText="Aliquam quis volutpat eros. Sed pulvinar nibh eget risus tempor, ut pretium nisi lobortis. Aenean fringilla facilisis urna nec malesuada. Sed justo lorem, fermentum dictum imperdiet " Foreground="#FF465724" FontStyle="Bold" Id="78792abf-cca5-4279-a5c8-3a570868b21e" Panel.Bounds="56,937,1149{5,2147483647},24{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="cea6a7bd-9bd8-4bb2-b072-122bb87da637">
+                            <Add.Item>
+                                <Label RichText="&lt;Run Foreground=&quot;#FF717100&quot; FontWeight=&quot;Bold&quot; &gt;E-Trickets 2017&lt;/Run&gt;" FontFamily="Open Sans" Id="265e880e-8297-4fc3-b92c-fae30741aca7" Panel.Bounds="572,981,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="cea6a7bd-9bd8-4bb2-b072-122bb87da637">
+                            <Add.Item>
+                                <Icon CatalogId="fa-copyright" Id="c9141a54-d360-4281-9d71-2143007e9f2b" Panel.Bounds="550,981,15{5,2147483647},15{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="cea6a7bd-9bd8-4bb2-b072-122bb87da637">
+                            <Add.Item>
+                                <Icon Color="#FF349C42" CatalogId="fa-ticket" Scale="1,1" RotationAngle="-180" Id="cc56170d-0620-4ecf-b809-bba68e5516ea" Panel.Bounds="38,41,65{5,2147483647},65{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="cea6a7bd-9bd8-4bb2-b072-122bb87da637">
+                            <Add.Item>
+                                <VideoPlayer VideoUrl="https://www.youtube.com/watch?v=lR3vIjAZDnM" Opacity="1" Id="2677eeae-96a2-497c-93ce-210813241287" Panel.Bounds="60,177,493{5,2147483647},277*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="cea6a7bd-9bd8-4bb2-b072-122bb87da637">
+                            <Add.Item>
+                                <Label RichText="Ed Sheeran - Multiply Live in Dublin " Foreground="#FF277531" FontSize="16" FontFamily="Open Sans" FontStyle="Bold" Id="d92dfd25-8406-40ce-836c-2915eb97e27b" Panel.Bounds="64,468,489{5,2147483647},18*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="cea6a7bd-9bd8-4bb2-b072-122bb87da637">
+                            <Add.Item>
+                                <Title RichText="e-Tickets" Foreground="#FF1A4E21" FontFamily="Open Sans" Id="4160670e-7ad7-4348-b7bb-f994b6e60581" Panel.Bounds="115,59,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="cea6a7bd-9bd8-4bb2-b072-122bb87da637">
+                            <Add.Item>
+                                <Icon Color="#FF277531" CatalogId="fa-calendar" Id="40f35b2a-4d50-4ed6-9a49-cbad612b6b91" Panel.Bounds="304,862,30{5,2147483647},30{5,2147483647}">
+                                    <Icon.Click>
+                                        <CommandNavigate Screen="/View Events (Logged).screen" Created="11/03/2017 07:57:21" Id="6641830b-d474-4b1e-8ac5-2ede15d4f3d9">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Icon.Click>
+                                </Icon>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="cea6a7bd-9bd8-4bb2-b072-122bb87da637">
+                            <Add.Item>
+                                <Tabs Background="#FFD3E1B5" TabBackground="#FFBCD290" Id="ae6acd27-a301-45bc-9fcc-e6c2a0205662" Panel.Bounds="642,177,450{5,2147483647},277{5,2147483647}">
+                                    <Tabs.Items>
+                                        <TabItem Header="Events" IsSelected="True" Id="ab86848f-35ca-4b9a-b22f-9ff61ef15495">
+                                            <TabItem.Content>
+                                                <Container ClipToContainer="True" Id="e2e529fe-5cda-4407-ae35-aea541ae228f" />
+                                            </TabItem.Content>
+                                        </TabItem>
+                                        <TabItem Header="Calendar" Id="12ddea4b-22e7-4085-accb-9ccc54cfe539">
+                                            <TabItem.Content>
+                                                <Container ClipToContainer="True" Id="52c8c0db-2f90-4dba-8a81-0df95d3e9b77" />
+                                            </TabItem.Content>
+                                            <TabItem.Selected>
+                                                <CommandSwitchTo SceneId="6588d964-b1a9-49a6-8a50-f96ec88eacc7" AutoRevertEvent="TabItem.Unselected" Created="10/31/2017 10:49:32" Id="a90036e7-f631-46eb-8cb6-e96e86dde234" />
+                                            </TabItem.Selected>
+                                        </TabItem>
+                                        <TabItem Header="Places" Id="a075e867-be2c-4c82-a1b4-8e9c28fcc519">
+                                            <TabItem.Content>
+                                                <Container ClipToContainer="True" Id="3fc77e16-482e-40ee-ad13-a78d4d1c8258" />
+                                            </TabItem.Content>
+                                            <TabItem.Selected>
+                                                <CommandNavigate Screen="/Home (Logged).screen" State="0e2dc68b-7924-4658-b9c4-2e51704325e2" Created="10/31/2017 11:26:43" Id="0dbe8011-b806-486c-b150-bbc931d26002">
+                                                    <CommandNavigate.Transition>
+                                                        <NavigateTransition Duration="0" />
+                                                    </CommandNavigate.Transition>
+                                                </CommandNavigate>
+                                            </TabItem.Selected>
+                                        </TabItem>
+                                        <TabItem Header="Artists" Id="2a64b5e1-2de1-4e33-8262-611df290e749">
+                                            <TabItem.Content>
+                                                <Container ClipToContainer="True" Id="6c508e75-c1b4-4f12-8b1b-d6b1b0affd37" />
+                                            </TabItem.Content>
+                                            <TabItem.Selected>
+                                                <CommandSwitchTo SceneId="b884d240-fe79-4a51-8dc7-252de50ca55c" AutoRevertEvent="TabItem.Unselected" Created="10/31/2017 11:49:27" Id="1adcea1f-ae08-434f-940f-6459ee05b826" />
+                                            </TabItem.Selected>
+                                        </TabItem>
+                                        <TabItem Header="Gernes" Id="66c5b421-6033-41ee-93ed-4cf211a77ab8">
+                                            <TabItem.Content>
+                                                <Container ClipToContainer="True" Id="a449a766-2142-4b5a-911e-f9931422951c" />
+                                            </TabItem.Content>
+                                            <TabItem.Selected>
+                                                <CommandSwitchTo SceneId="e9126ece-2d09-45e4-b724-c6c7b5450075" AutoRevertEvent="TabItem.Unselected" Created="10/31/2017 12:01:58" Id="4ee86f1c-1e1a-4996-8f17-b9680eccd70e" />
+                                            </TabItem.Selected>
+                                        </TabItem>
+                                    </Tabs.Items>
+                                </Tabs>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="cea6a7bd-9bd8-4bb2-b072-122bb87da637">
+                            <Add.Item>
+                                <Link Text="Edd Sheeran LIVE  - Multiply in Dublin" Foreground="#FF1C1C1C" FontFamily="Open Sans" FontStyle="Bold" Id="699214e0-bf49-4c2b-8a5a-329d419e1748" Panel.Bounds="657,230,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="cea6a7bd-9bd8-4bb2-b072-122bb87da637">
+                            <Add.Item>
+                                <Button Text="See details" Background="#FFA6C36B" CornerRadius="11" FontFamily="Open Sans" Id="352302e9-bd73-4c17-99d5-c19a8a260576" Panel.Bounds="909,227,80{5,2147483647},21{5,2147483647}">
+                                    <Button.Click>
+                                        <CommandNavigate Screen="/Event details (Logged).screen" Created="11/02/2017 20:04:22" Id="5872f050-3afc-4b87-85e6-06af2bef252a">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Button.Click>
+                                </Button>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="cea6a7bd-9bd8-4bb2-b072-122bb87da637">
+                            <Add.Item>
+                                <Link Text="KISS LIVE in concert - Wembley arena " Foreground="#FF000000" FontFamily="Open Sans" FontStyle="Bold" Id="6fb4846e-dc20-4cef-9857-e5a932672003" Panel.Bounds="657,259,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="cea6a7bd-9bd8-4bb2-b072-122bb87da637">
+                            <Add.Item>
+                                <Button Text="See details" Background="#FFA6C36B" CornerRadius="11" FontFamily="Open Sans" Id="0f388f89-0365-4439-b9b9-268dc5f582a4" Panel.Bounds="909,255,80{5,2147483647},22{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="cea6a7bd-9bd8-4bb2-b072-122bb87da637">
+                            <Add.Item>
+                                <Button Text="Buy" Background="#FFA6C36B" CornerRadius="11" FontFamily="Open Sans" Id="076d34b4-cfba-427b-ab9e-42e7be82a385" Panel.Bounds="996,225,80{5,2147483647},24{5,2147483647}">
+                                    <Button.Click>
+                                        <CommandNavigate Screen="/Buy Tickets (Logged).screen" Created="11/02/2017 20:06:12" Id="a66e0c19-a99c-424c-a564-66dd6413c983">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Button.Click>
+                                </Button>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="cea6a7bd-9bd8-4bb2-b072-122bb87da637">
+                            <Add.Item>
+                                <Button Text="Buy" Background="#FFA6C36B" CornerRadius="11" FontFamily="Open Sans" Id="1f0379f3-e752-43fd-abf7-987f9f422154" Panel.Bounds="994,254,80{5,2147483647},24{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="cea6a7bd-9bd8-4bb2-b072-122bb87da637">
+                            <Add.Item>
+                                <Link Text="KISS LIVE in concert - Wembley arena " Foreground="#FF000000" FontFamily="Open Sans" FontStyle="Bold" Id="1eb8a84c-85a5-4ba5-a17c-94472ad6c51c" Panel.Bounds="659,290,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="cea6a7bd-9bd8-4bb2-b072-122bb87da637">
+                            <Add.Item>
+                                <Button Text="See details" Background="#FFA6C36B" CornerRadius="11" FontFamily="Open Sans" Id="5e2d0d44-a13d-4dc1-b78c-c07490c091ba" Panel.Bounds="911,286,80{5,2147483647},22{5,2147483647}">
+                                    <Button.Click>
+                                        <CommandNavigate Screen="/Event details (Not Logged).screen" Created="11/02/2017 20:04:40" Id="990b9e29-bd73-4495-bbda-895a1cc7b741">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Button.Click>
+                                </Button>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="cea6a7bd-9bd8-4bb2-b072-122bb87da637">
+                            <Add.Item>
+                                <Button Text="Buy" Background="#FFA6C36B" CornerRadius="11" FontFamily="Open Sans" Id="0be42313-1e9d-4887-9b4a-c2f5fca8d4f2" Panel.Bounds="996,285,80{5,2147483647},24{5,2147483647}">
+                                    <Button.Click>
+                                        <CommandNavigate Screen="/Buy Tickets (Logged).screen" Created="11/02/2017 20:06:33" Id="c624096e-0391-4b8c-9797-68b7806f26bc">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Button.Click>
+                                </Button>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="cea6a7bd-9bd8-4bb2-b072-122bb87da637">
+                            <Add.Item>
+                                <Link Text="KISS LIVE in concert - Wembley arena " Foreground="#FF000000" FontFamily="Open Sans" FontStyle="Bold" Id="88d9dce1-6fec-432e-b921-2feae34342ab" Panel.Bounds="659,323,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="cea6a7bd-9bd8-4bb2-b072-122bb87da637">
+                            <Add.Item>
+                                <Button Text="See details" Background="#FFA6C36B" CornerRadius="11" FontFamily="Open Sans" Id="1f3af54a-dc44-41bc-b564-c56f451fdcda" Panel.Bounds="911,319,80{5,2147483647},22{5,2147483647}">
+                                    <Button.Click>
+                                        <CommandNavigate Screen="/Event details (Not Logged).screen" Created="11/02/2017 20:04:47" Id="670b5926-6ac3-4660-a02d-df2c13e66484">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Button.Click>
+                                </Button>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="cea6a7bd-9bd8-4bb2-b072-122bb87da637">
+                            <Add.Item>
+                                <Button Text="Buy" Background="#FFA6C36B" CornerRadius="11" FontFamily="Open Sans" Id="fe3e27f2-4c91-46d2-baa9-03e433327531" Panel.Bounds="996,318,80{5,2147483647},24{5,2147483647}">
+                                    <Button.Click>
+                                        <CommandNavigate Screen="/Buy Tickets (Logged).screen" Created="11/02/2017 20:06:39" Id="2278db2f-9385-41e3-836f-3cba54aa93c1">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Button.Click>
+                                </Button>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="cea6a7bd-9bd8-4bb2-b072-122bb87da637">
+                            <Add.Item>
+                                <Link Text="KISS LIVE in concert - Wembley arena " Foreground="#FF000000" FontFamily="Open Sans" FontStyle="Bold" Id="1e9474e9-6fe7-4e1c-a5c4-7042624086ba" Panel.Bounds="657,355,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="cea6a7bd-9bd8-4bb2-b072-122bb87da637">
+                            <Add.Item>
+                                <Button Text="See details" Background="#FFA6C36B" CornerRadius="11" FontFamily="Open Sans" Id="a5bcb888-6b48-42e0-890e-9431c6430e2d" Panel.Bounds="909,351,80{5,2147483647},22{5,2147483647}">
+                                    <Button.Click>
+                                        <CommandNavigate Screen="/Event details (Not Logged).screen" Created="11/02/2017 20:04:52" Id="d938b416-abd5-4bab-8c50-e3cde3845a69">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Button.Click>
+                                </Button>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="cea6a7bd-9bd8-4bb2-b072-122bb87da637">
+                            <Add.Item>
+                                <Button Text="Buy" Background="#FFA6C36B" CornerRadius="11" FontFamily="Open Sans" Id="94c3141b-0c49-4f9b-ab35-1a54c7d9a316" Panel.Bounds="994,350,80{5,2147483647},24{5,2147483647}">
+                                    <Button.Click>
+                                        <CommandNavigate Screen="/Buy Tickets (Logged).screen" Created="11/02/2017 20:06:45" Id="437062be-46af-4777-9b90-fa6a148bc623">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Button.Click>
+                                </Button>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="cea6a7bd-9bd8-4bb2-b072-122bb87da637">
+                            <Add.Item>
+                                <Link Text="KISS LIVE in concert - Wembley arena " Foreground="#FF000000" FontFamily="Open Sans" FontStyle="Bold" Id="9a0d8cb0-da6e-4850-b12b-e44e47e7a49e" Panel.Bounds="659,386,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="cea6a7bd-9bd8-4bb2-b072-122bb87da637">
+                            <Add.Item>
+                                <Button Text="See details" Background="#FFA6C36B" CornerRadius="11" FontFamily="Open Sans" Id="b3190659-b364-4134-bc08-20651dd7c336" Panel.Bounds="911,382,80{5,2147483647},22{5,2147483647}">
+                                    <Button.Click>
+                                        <CommandNavigate Screen="/Event details (Not Logged).screen" Created="11/02/2017 20:04:58" Id="da7f36ff-68e5-46ee-bf32-05679051381a">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Button.Click>
+                                </Button>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="cea6a7bd-9bd8-4bb2-b072-122bb87da637">
+                            <Add.Item>
+                                <Button Text="Buy" Background="#FFA6C36B" CornerRadius="11" FontFamily="Open Sans" Id="95e47b27-6704-4318-af74-5a8041c6bcc4" Panel.Bounds="996,381,80{5,2147483647},24{5,2147483647}">
+                                    <Button.Click>
+                                        <CommandNavigate Screen="/Buy Tickets (Logged).screen" Created="11/02/2017 20:06:49" Id="24bbf6cd-2862-47be-9141-81ce00c56cb0">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Button.Click>
+                                </Button>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="cea6a7bd-9bd8-4bb2-b072-122bb87da637">
+                            <Add.Item>
+                                <Link Text="KISS LIVE in concert - Wembley arena " Foreground="#FF000000" FontFamily="Open Sans" FontStyle="Bold" Id="e212e2ce-b113-404d-b810-104182bc36da" Panel.Bounds="657,418,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="cea6a7bd-9bd8-4bb2-b072-122bb87da637">
+                            <Add.Item>
+                                <Button Text="See details" Background="#FFA6C36B" CornerRadius="11" FontFamily="Open Sans" Id="fcd0b671-993c-472c-b572-21d77ac8f29a" Panel.Bounds="909,414,80{5,2147483647},22{5,2147483647}">
+                                    <Button.Click>
+                                        <CommandNavigate Screen="/Event details (Not Logged).screen" Created="11/02/2017 20:05:03" Id="53437d02-f5b9-4109-9104-09f5ea591c32">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Button.Click>
+                                </Button>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="cea6a7bd-9bd8-4bb2-b072-122bb87da637">
+                            <Add.Item>
+                                <Button Text="Buy" Background="#FFA6C36B" CornerRadius="11" FontFamily="Open Sans" Id="dbbcc0b1-145b-4d08-98e2-4574282b4e3b" Panel.Bounds="994,413,80{5,2147483647},24{5,2147483647}">
+                                    <Button.Click>
+                                        <CommandNavigate Screen="/Buy Tickets (Logged).screen" Created="11/02/2017 20:06:55" Id="c658c535-55e0-465b-b46e-b5dc969bca44">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Button.Click>
+                                </Button>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="cea6a7bd-9bd8-4bb2-b072-122bb87da637">
+                            <Add.Item>
+                                <Link Text="KISS LIVE in concert - Wembley arena " Foreground="#FF000000" FontFamily="Open Sans" FontStyle="Bold" Id="7d25cc27-15d0-4fd8-94af-63a2ef97a6e1" Panel.Bounds="657,259,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="cea6a7bd-9bd8-4bb2-b072-122bb87da637">
+                            <Add.Item>
+                                <Button Text="See details" Background="#FFA6C36B" CornerRadius="11" FontFamily="Open Sans" Id="0a2fe7fb-c1d9-4ae4-ab5d-03e766e307c0" Panel.Bounds="909,255,80{5,2147483647},22{5,2147483647}">
+                                    <Button.Click>
+                                        <CommandNavigate Screen="/Event details (Logged).screen" Created="11/02/2017 20:04:30" Id="73c79c70-8be7-4fd8-9ffd-466dd300a80d">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Button.Click>
+                                </Button>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="cea6a7bd-9bd8-4bb2-b072-122bb87da637">
+                            <Add.Item>
+                                <Button Text="Buy" Background="#FFA6C36B" CornerRadius="11" FontFamily="Open Sans" Id="6d28b215-7d25-484d-b65b-32ddfe0f0c9d" Panel.Bounds="994,254,80{5,2147483647},24{5,2147483647}">
+                                    <Button.Click>
+                                        <CommandNavigate Screen="/Buy Tickets (Logged).screen" Created="11/02/2017 20:06:27" Id="8643218a-1a82-44d9-8acd-1b4b6a091f73">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Button.Click>
+                                </Button>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="cea6a7bd-9bd8-4bb2-b072-122bb87da637">
+                            <Add.Item>
+                                <TextArea WatermarkText="Search for events..." Background="#FFBCD290" FontSize="21" FontFamily="Open Sans" Id="2d454e2b-ba57-4330-93b2-c431415e50a7" Panel.Bounds="646,73,381{5,2147483647},39{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="cea6a7bd-9bd8-4bb2-b072-122bb87da637">
+                            <Add.Item>
+                                <Image SourcePath="assets/images (2).jpg" Id="7e89881a-5e38-413c-8170-e15deb9c4031" Panel.Bounds="80,563,250{5,2147483647},122{5,2147483647}">
+                                    <Image.Click>
+                                        <CommandNavigate Screen="/Event details (Logged).screen" Created="10/31/2017 18:58:29" Id="223c0f05-f384-46c5-8205-ede2d0e3a0fd">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Image.Click>
+                                </Image>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="cea6a7bd-9bd8-4bb2-b072-122bb87da637">
+                            <Add.Item>
+                                <Image SourcePath="assets/42.jpeg" Id="10841a70-77db-427c-9e71-2b3f1886cb30" Panel.Bounds="656,565,250{5,2147483647},122{5,2147483647}">
+                                    <Image.Click>
+                                        <CommandNavigate Screen="/Event details (Logged).screen" Created="10/31/2017 18:58:48" Id="49b3deb3-c255-43e9-9e65-409971d00db0">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Image.Click>
+                                </Image>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="cea6a7bd-9bd8-4bb2-b072-122bb87da637">
+                            <Add.Item>
+                                <Image SourcePath="assets/images.jpg" Id="4f74cb1f-ffe9-4d6a-a621-5b03cf3d72d2" Panel.Bounds="944,565,250{5,2147483647},122{5,2147483647}">
+                                    <Image.Click>
+                                        <CommandNavigate Screen="/Event details (Logged).screen" Created="10/31/2017 18:58:56" Id="15d01022-05b1-4fe8-acf8-5d15532fa93d">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Image.Click>
+                                </Image>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="cea6a7bd-9bd8-4bb2-b072-122bb87da637">
+                            <Add.Item>
+                                <Image SourcePath="assets/Star-Wars-The-Last-Jedi-Poster-Teaser.jpg" Id="b97c26be-e90d-48c8-ab0e-33dc5d92c93b" Panel.Bounds="368,565,250{5,2147483647},122{5,2147483647}">
+                                    <Image.Click>
+                                        <CommandNavigate Screen="/Event details (Logged).screen" Created="10/31/2017 19:10:23" Id="93e5d702-ba42-43fd-9bd3-ed179e0f82cd">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Image.Click>
+                                </Image>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="cea6a7bd-9bd8-4bb2-b072-122bb87da637">
+                            <Add.Item>
+                                <Icon Color="#FF48C157" CatalogId="fa-stack-exchange" Id="7af4cda8-2820-45db-b643-b2860d0f62e8" BootstrapContainer.HorizontalAlignment="Center" Panel.Bounds="1059,80,32{5,2147483647},32{5,2147483647}">
+                                    <Icon.Click>
+                                        <CommandSwitchTo SceneId="af8cc640-52c4-4202-b31f-57e2aea4a8fb" Created="11/03/2017 07:52:56" Id="c71d017b-3e92-47a4-a811-277b22900691" />
+                                    </Icon.Click>
+                                </Icon>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="cea6a7bd-9bd8-4bb2-b072-122bb87da637">
+                            <Add.Item>
+                                <Icon Color="#FF465724" CatalogId="fa-shopping-cart" Id="154622cc-f74f-4e14-9687-572ac7b4fb3b" Panel.Bounds="1104,80,32{5,2147483647},32{5,2147483647}">
+                                    <Icon.Click>
+                                        <CommandNavigate Screen="/Buy Tickets (Logged).screen" Created="11/03/2017 07:54:52" Id="ba4d39ad-62f7-45d2-b4ad-26ddfac92f8f">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Icon.Click>
+                                </Icon>
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Selected Calendar" ParentScene="745482db-8bc3-449c-9e01-3da737c9154f" Created="10/31/2017 10:49:32" Id="6588d964-b1a9-49a6-8a50-f96ec88eacc7">
+            <Scene.KeyFrames>
+                <KeyFrame Id="182c4026-7c5e-4498-8c7c-e793f06fde85">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Before="87a46dfa-9556-4c87-b482-b2b80f46c03f" Target="cea6a7bd-9bd8-4bb2-b072-122bb87da637">
+                            <Add.Item>
+                                <Group GroupName="Group" Id="fe09127c-a90b-4a4a-89dd-732c56e20a40" Panel.Bounds="0,8,0*,0*">
+                                    <Group.Click>
+                                        <CommandSwitchTo SceneId="0e2dc68b-7924-4658-b9c4-2e51704325e2" Created="10/31/2017 10:59:37" Id="680aa6f2-39ea-4312-a731-bab334436854" />
+                                    </Group.Click>
+                                </Group>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="cea6a7bd-9bd8-4bb2-b072-122bb87da637">
+                            <Add.Item>
+                                <ContainerBox Background="#FFD3E1B5" Id="90354245-929e-44b7-99ce-f70dfe2f896a" Panel.Bounds="642,177,450{5,2147483647},281{5,2147483647}">
+                                    <ContainerBox.Content>
+                                        <Container ClipToContainer="True" Id="bbfbcd8d-7469-4d57-8913-8d500197b56d" />
+                                    </ContainerBox.Content>
+                                </ContainerBox>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="cea6a7bd-9bd8-4bb2-b072-122bb87da637">
+                            <Add.Item>
+                                <Tabs Background="#FFD3E1B5" TabBackground="#FFBCD290" Id="762cb906-7769-49ab-99b2-d475572c6c8c" Panel.Bounds="642,177,450{5,2147483647},286{5,2147483647}">
+                                    <Tabs.Items>
+                                        <TabItem Header="Events" Id="47182e67-eccb-4826-9d10-572da4d77b04">
+                                            <TabItem.Content>
+                                                <Container ClipToContainer="True" Id="0a3d1638-2645-49da-b5d3-00f88c4e142c" />
+                                            </TabItem.Content>
+                                            <TabItem.Selected>
+                                                <CommandNavigate Screen="/Home (Logged).screen" Created="10/31/2017 11:05:44" Id="c735895f-c1ee-459e-af35-f5df9ac0be75">
+                                                    <CommandNavigate.Transition>
+                                                        <NavigateTransition Duration="0" />
+                                                    </CommandNavigate.Transition>
+                                                </CommandNavigate>
+                                            </TabItem.Selected>
+                                        </TabItem>
+                                        <TabItem Header="Calendar" IsSelected="True" Id="c15ab860-b7bd-46ba-bf17-c86836e298f4">
+                                            <TabItem.Content>
+                                                <Container ClipToContainer="True" Id="00255635-231c-46fe-b569-2c7b04632f7c" />
+                                            </TabItem.Content>
+                                        </TabItem>
+                                        <TabItem Header="Places" Id="8cecac1a-b113-40ba-8037-b6276cd8ad09">
+                                            <TabItem.Content>
+                                                <Container ClipToContainer="True" Id="c9f59d6f-d7fe-4dd3-947b-1bc2c20d5b07" />
+                                            </TabItem.Content>
+                                            <TabItem.Selected>
+                                                <CommandSwitchTo SceneId="0e2dc68b-7924-4658-b9c4-2e51704325e2" AutoRevertEvent="TabItem.Unselected" Created="10/31/2017 11:30:30" Id="43e05e9e-891b-4a4c-850b-908971f584e7" />
+                                            </TabItem.Selected>
+                                        </TabItem>
+                                        <TabItem Header="Artists" Id="a7652711-a31b-4e92-9462-87cdb4d6a980">
+                                            <TabItem.Content>
+                                                <Container ClipToContainer="True" Id="ed68be40-3c65-4b9b-a7d1-58c91920e356" />
+                                            </TabItem.Content>
+                                            <TabItem.Selected>
+                                                <CommandSwitchTo SceneId="b884d240-fe79-4a51-8dc7-252de50ca55c" AutoRevertEvent="TabItem.Unselected" Created="10/31/2017 11:49:14" Id="fc3fd514-f69d-46a7-b24e-559e03b13000" />
+                                            </TabItem.Selected>
+                                        </TabItem>
+                                        <TabItem Header="Gernes" Id="35a1f8f2-0151-4a12-b5d2-08cc0aad0f27">
+                                            <TabItem.Content>
+                                                <Container ClipToContainer="True" Id="200e3e97-5f1a-4b61-8366-30234b719451" />
+                                            </TabItem.Content>
+                                            <TabItem.Selected>
+                                                <CommandSwitchTo SceneId="e9126ece-2d09-45e4-b724-c6c7b5450075" AutoRevertEvent="TabItem.Unselected" Created="10/31/2017 12:16:34" Id="8e8455a0-15d7-4c49-a061-8f5aece010d3" />
+                                            </TabItem.Selected>
+                                        </TabItem>
+                                    </Tabs.Items>
+                                </Tabs>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="cea6a7bd-9bd8-4bb2-b072-122bb87da637">
+                            <Add.Item>
+                                <Grid AlternateRowColor="#FFBCD290" FontSize="13" HeaderFontSize="13" Background="#FFD3E1B5" Id="43a985b3-aec8-4a94-8162-bef15aeaef97" Panel.Bounds="642,236,450{5,2147483647},227{5,2147483647}">
+                                    <Grid.HeaderRow>
+                                        <GridHeaderRow FontStyle="" Height="32" Id="28a99b8f-7a7c-4e72-a3b1-1c9ce6b9b9a0" />
+                                    </Grid.HeaderRow>
+                                    <Grid.Columns>
+                                        <GridColumn ColumnId="718c20c1-014d-4eaa-8e3c-549856cd0066" Type="Text" Width="60" Id="7678fd4a-b9ce-4ef2-ba10-7da2ffc77ca1">
+                                            <GridColumn.CellData>
+                                                <GridCellData ColumnId="718c20c1-014d-4eaa-8e3c-549856cd0066" Value="Mon" Opacity="1" Id="66c9eeda-0b6e-4d5d-bad5-04f5c155897e" />
+                                            </GridColumn.CellData>
+                                        </GridColumn>
+                                        <GridColumn ColumnId="2e210e6f-2860-4cbf-a18c-d6c783772146" Type="Text" Width="68" Id="b14ca74e-456a-41a8-af96-9c0403db59d8">
+                                            <GridColumn.CellData>
+                                                <GridCellData ColumnId="2e210e6f-2860-4cbf-a18c-d6c783772146" Value="Tue" Opacity="1" Id="d1d87bbb-c93a-4417-916d-0fb7c29290fe" />
+                                            </GridColumn.CellData>
+                                        </GridColumn>
+                                        <GridColumn ColumnId="2e3d587d-488d-4a8b-afe4-7c91bebf1276" Type="Text" Width="70" Id="a9c8f12b-92b7-4420-ac78-7c799dbb9b2f">
+                                            <GridColumn.CellData>
+                                                <GridCellData ColumnId="2e3d587d-488d-4a8b-afe4-7c91bebf1276" Value="Wed" Opacity="1" Id="b1fbb5c3-41cf-4329-b575-b4ce25e3f493" />
+                                            </GridColumn.CellData>
+                                        </GridColumn>
+                                        <GridColumn ColumnId="ee941566-422a-482a-a81a-65d6c5af24b1" Type="Text" Width="65" Id="89e6104a-776e-430e-ada8-20989ee2dfbb">
+                                            <GridColumn.CellData>
+                                                <GridCellData ColumnId="ee941566-422a-482a-a81a-65d6c5af24b1" Value="Thurs" Opacity="1" Id="cacd0a53-9995-4bb3-abf1-1c3bb7c26037" />
+                                            </GridColumn.CellData>
+                                        </GridColumn>
+                                        <GridColumn ColumnId="ab7a8a64-3cd2-44a8-997f-570446792234" Type="Text" Width="64" Id="68472b8e-f5df-404e-904f-fec05e14e2fa">
+                                            <GridColumn.CellData>
+                                                <GridCellData ColumnId="ab7a8a64-3cd2-44a8-997f-570446792234" Value="Fri" Opacity="1" Id="14fa167a-ff82-41e1-be0a-a753714b6c15" />
+                                            </GridColumn.CellData>
+                                        </GridColumn>
+                                        <GridColumn ColumnId="59fdafc3-cd7f-48ad-b8f2-34472f2610d1" Type="Text" Width="61" Id="9cfd2c8a-2b4c-4827-b1c9-6a7539c41610">
+                                            <GridColumn.CellData>
+                                                <GridCellData ColumnId="59fdafc3-cd7f-48ad-b8f2-34472f2610d1" Value="Sat" Opacity="1" Id="cbceaade-943f-40cc-b9bb-263ed34d1c64" />
+                                            </GridColumn.CellData>
+                                        </GridColumn>
+                                        <GridColumn ColumnId="6c6a0048-f903-4a0d-8626-cf5c137591ca" Type="Text" Width="58" Id="c26d36cd-adde-46df-b1b0-1021b30cdf21">
+                                            <GridColumn.CellData>
+                                                <GridCellData ColumnId="6c6a0048-f903-4a0d-8626-cf5c137591ca" Value="Sun" Opacity="1" Id="388e8d34-5cc4-4357-a5f7-44898f061cdb" />
+                                            </GridColumn.CellData>
+                                        </GridColumn>
+                                    </Grid.Columns>
+                                    <Grid.Rows>
+                                        <GridRow Height="32" Id="7ee9b6e4-3842-413b-befc-a6cf9c6c2005">
+                                            <GridRow.Data>
+                                                <GridCellData ColumnId="718c20c1-014d-4eaa-8e3c-549856cd0066" Opacity="1" Id="ce953603-1206-4609-97af-b01ddb55f82a" />
+                                                <GridCellData ColumnId="2e210e6f-2860-4cbf-a18c-d6c783772146" Opacity="1" Id="dbc07fe2-1cf3-47c2-bfa9-53bc24a8526a" />
+                                                <GridCellData ColumnId="2e3d587d-488d-4a8b-afe4-7c91bebf1276" Value=" dignissim et sadipscing rebum." Opacity="1" Id="9f98e310-939e-4569-8c35-a8b1b3ce8a8e" />
+                                                <GridCellData ColumnId="6c6a0048-f903-4a0d-8626-cf5c137591ca" Value="1" Opacity="1" Id="05f2816d-fa51-4ec2-a72b-b636096307a8" />
+                                            </GridRow.Data>
+                                        </GridRow>
+                                        <GridRow Height="32" Id="b1917e10-66d0-4afe-a54f-0fed320b051b">
+                                            <GridRow.Data>
+                                                <GridCellData ColumnId="718c20c1-014d-4eaa-8e3c-549856cd0066" Value="2" Opacity="1" Id="c339a62f-2641-441b-8d9c-0ef8ba9b5aca" />
+                                                <GridCellData ColumnId="2e210e6f-2860-4cbf-a18c-d6c783772146" Value="3" Opacity="1" Id="0ddcd719-bb4e-4b3f-94d9-9e84c2edf470" />
+                                                <GridCellData ColumnId="2e3d587d-488d-4a8b-afe4-7c91bebf1276" Value="4" Opacity="1" Id="c2f8448c-3735-4867-a3d7-fb8db46a6d15" />
+                                                <GridCellData ColumnId="ee941566-422a-482a-a81a-65d6c5af24b1" Value="5" Opacity="1" Id="6c5340f1-0737-4ceb-bd92-c369d9bf4fc5" />
+                                                <GridCellData ColumnId="ab7a8a64-3cd2-44a8-997f-570446792234" Value="6" Opacity="1" Id="26c70f64-4bd7-4e8e-9da2-c8a11be022bb" />
+                                                <GridCellData ColumnId="59fdafc3-cd7f-48ad-b8f2-34472f2610d1" Value="7" Opacity="1" Id="c939cac0-f1d2-4341-9b06-511d1acc57a3" />
+                                                <GridCellData ColumnId="6c6a0048-f903-4a0d-8626-cf5c137591ca" Value="8" Opacity="1" Id="509b2886-0266-4ea5-ae3b-b0f200dbb01a" />
+                                            </GridRow.Data>
+                                        </GridRow>
+                                        <GridRow Height="32" Id="9fd07049-2026-46a7-86c6-8af54f215eda">
+                                            <GridRow.Data>
+                                                <GridCellData ColumnId="718c20c1-014d-4eaa-8e3c-549856cd0066" Value="9" Opacity="1" Id="7eb1b2dc-fc87-4474-8b73-1b832fa1ea60" />
+                                                <GridCellData ColumnId="2e210e6f-2860-4cbf-a18c-d6c783772146" Value="10" Opacity="1" Id="b5997126-4f54-434e-80d8-1701e5ab651f" />
+                                                <GridCellData ColumnId="2e3d587d-488d-4a8b-afe4-7c91bebf1276" Value="11" Opacity="1" Id="afa6a841-4331-4e8b-a893-09985365222f" />
+                                                <GridCellData ColumnId="ee941566-422a-482a-a81a-65d6c5af24b1" Value="12" Opacity="1" Id="884d43c5-5cd8-4d68-ba16-cf690a7320ad" />
+                                                <GridCellData ColumnId="ab7a8a64-3cd2-44a8-997f-570446792234" Value="13" Opacity="1" Id="db118645-17fe-4906-98ea-63104358c1f4" />
+                                                <GridCellData ColumnId="59fdafc3-cd7f-48ad-b8f2-34472f2610d1" Value="14" Opacity="1" Id="6a7dc353-5d9d-47ab-82b4-1862623dd3d4" />
+                                                <GridCellData ColumnId="6c6a0048-f903-4a0d-8626-cf5c137591ca" Value="15" Opacity="1" Id="20bb436c-f855-4fbf-9fc1-a729ba590796" />
+                                            </GridRow.Data>
+                                        </GridRow>
+                                        <GridRow Height="32" Id="a204008a-6e4f-4ae9-874c-e739080f0957">
+                                            <GridRow.Data>
+                                                <GridCellData ColumnId="718c20c1-014d-4eaa-8e3c-549856cd0066" Value="16" Opacity="1" Id="d6da6bcf-a603-4b8a-bac8-920060e41d4f" />
+                                                <GridCellData ColumnId="2e210e6f-2860-4cbf-a18c-d6c783772146" Value="17" Opacity="1" Id="1bfb4258-18e5-4201-b745-1eff30c3b03d" />
+                                                <GridCellData ColumnId="2e3d587d-488d-4a8b-afe4-7c91bebf1276" Value="18" Opacity="1" Id="2daedce9-5a87-4e1e-aa90-dfcd8ed6d7b1" />
+                                                <GridCellData ColumnId="ee941566-422a-482a-a81a-65d6c5af24b1" Value="19" Opacity="1" Id="6f140302-7f8d-4383-8c88-dc3507df3476" />
+                                                <GridCellData ColumnId="ab7a8a64-3cd2-44a8-997f-570446792234" Value="20" Opacity="1" Id="4a6bc61e-5dcf-4fce-9088-8df40ad679a0" />
+                                                <GridCellData ColumnId="59fdafc3-cd7f-48ad-b8f2-34472f2610d1" Value="21" Opacity="1" Id="a3ea6651-1bf2-4031-b769-29c3c0a16db3" />
+                                                <GridCellData ColumnId="6c6a0048-f903-4a0d-8626-cf5c137591ca" Value="22" Opacity="1" Id="90f315bf-638a-42a9-81d9-62d6139191af" />
+                                            </GridRow.Data>
+                                        </GridRow>
+                                        <GridRow Height="32" Id="cd035fbe-eedb-4c75-a035-063e29d8789f">
+                                            <GridRow.Data>
+                                                <GridCellData ColumnId="718c20c1-014d-4eaa-8e3c-549856cd0066" Value="23" Opacity="1" Id="d72f5561-916c-439e-a66b-bde6453c5889" />
+                                                <GridCellData ColumnId="2e210e6f-2860-4cbf-a18c-d6c783772146" Value="24" Opacity="1" Id="d3ee4750-6de7-49de-8324-0be8b8c27309" />
+                                                <GridCellData ColumnId="2e3d587d-488d-4a8b-afe4-7c91bebf1276" Value="25" Opacity="1" Id="00973b0b-fe49-449e-b868-af07eb011047" />
+                                                <GridCellData ColumnId="ee941566-422a-482a-a81a-65d6c5af24b1" Value="26" Opacity="1" Id="2e32041d-b485-4e3f-9144-a6193e0bfdc1" />
+                                                <GridCellData ColumnId="ab7a8a64-3cd2-44a8-997f-570446792234" Value="27" Opacity="1" Id="abdd28e3-9897-4c20-b5ab-1e483f76a60f" />
+                                                <GridCellData ColumnId="59fdafc3-cd7f-48ad-b8f2-34472f2610d1" Value="28" Opacity="1" Id="c34dff5b-2e90-430e-b2e2-41b160d29509" />
+                                                <GridCellData ColumnId="6c6a0048-f903-4a0d-8626-cf5c137591ca" Value="29" Opacity="1" Id="827fab5b-8ea2-4dbd-b0e4-b06b4154205c" />
+                                            </GridRow.Data>
+                                        </GridRow>
+                                        <GridRow Height="32" Id="3cd22deb-74b4-4c99-8fb5-bd43b24bb50f">
+                                            <GridRow.Data>
+                                                <GridCellData ColumnId="718c20c1-014d-4eaa-8e3c-549856cd0066" Value="30" Opacity="1" Id="e18adfb1-8ac7-4167-b733-14f37452aa76" />
+                                                <GridCellData ColumnId="2e210e6f-2860-4cbf-a18c-d6c783772146" Value="31" Opacity="1" Id="242fd47c-3805-44ca-b2da-eb2affd4afd1" />
+                                            </GridRow.Data>
+                                        </GridRow>
+                                    </Grid.Rows>
+                                </Grid>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="cea6a7bd-9bd8-4bb2-b072-122bb87da637">
+                            <Add.Item>
+                                <Label RichText="October 2017" FontFamily="Open Sans" FontStyle="Bold" Id="15a57457-570e-488b-b56c-e0ab321f9894" Panel.Bounds="827,216,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="cea6a7bd-9bd8-4bb2-b072-122bb87da637">
+                            <Add.Item>
+                                <Icon Color="#FF698335" CatalogId="fa-caret-right" Id="e66ecb3e-ff5c-4ebd-9d4e-c7d9048000d3" Panel.Bounds="1063,208,31{5,2147483647},31{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="cea6a7bd-9bd8-4bb2-b072-122bb87da637">
+                            <Add.Item>
+                                <Icon Color="#FF698335" CatalogId="fa-caret-left" Id="b77dbe18-99e2-48f4-a5a5-4f2245da0419" Panel.Bounds="643,210,30{5,2147483647},30{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Move To="0,0" At="fe09127c-a90b-4a4a-89dd-732c56e20a40" Target="87a46dfa-9556-4c87-b482-b2b80f46c03f" />
+                        <Move To="71,911" At="fe09127c-a90b-4a4a-89dd-732c56e20a40" Target="0c161277-4994-4d73-8aff-4fdb7124a8b8" />
+                        <Move To="60,852" At="fe09127c-a90b-4a4a-89dd-732c56e20a40" Target="cfe9db04-63ce-4dba-86f1-3d8d4fcf5578" />
+                        <Move To="177,852" At="fe09127c-a90b-4a4a-89dd-732c56e20a40" Target="6259bb9e-50cb-4f63-ae12-14d631821f8d" />
+                        <Move To="115,852" At="fe09127c-a90b-4a4a-89dd-732c56e20a40" Target="1fd39f46-da78-43ba-a79c-7880ab8fabed" />
+                        <Move To="239,852" At="fe09127c-a90b-4a4a-89dd-732c56e20a40" Target="a912cfe8-dffe-451f-a031-e79b2c0fc370" />
+                        <Move To="60,792" At="fe09127c-a90b-4a4a-89dd-732c56e20a40" Target="066031e6-1c17-4acb-becb-29dad4517c0f" />
+                        <Move To="307,782" At="fe09127c-a90b-4a4a-89dd-732c56e20a40" Target="b68b964f-45ec-4799-845e-04fb67899bcc" />
+                        <Move To="1064,782" At="fe09127c-a90b-4a4a-89dd-732c56e20a40" Target="0ca12313-f1bb-413e-9cb4-012d41314494" />
+                        <Move To="1069,824" At="fe09127c-a90b-4a4a-89dd-732c56e20a40" Target="894cc31c-f013-4f53-a41d-2d754c3892d0" />
+                        <Move To="1049,866" At="fe09127c-a90b-4a4a-89dd-732c56e20a40" Target="fb52af96-881b-4a64-919d-e1a7bc5c6d75" />
+                        <Move To="995,747" At="fe09127c-a90b-4a4a-89dd-732c56e20a40" Target="365881b1-6cc5-43dc-b9e8-d391dda9141c" />
+                        <Move To="91,747" At="fe09127c-a90b-4a4a-89dd-732c56e20a40" Target="87211a3b-42d6-4777-a689-40c6b6977343" />
+                        <Move To="933,782" At="fe09127c-a90b-4a4a-89dd-732c56e20a40" Target="fe41d874-6238-4e39-9178-613e96e5e480" />
+                        <Move To="924,866" At="fe09127c-a90b-4a4a-89dd-732c56e20a40" Target="e31297ba-2370-4ec5-b0bf-7d2dca3e333b" />
+                        <Move To="901,824" At="fe09127c-a90b-4a4a-89dd-732c56e20a40" Target="54641534-fd61-4506-adfd-24a8b410863a" />
+                        <Move To="538,747" At="fe09127c-a90b-4a4a-89dd-732c56e20a40" Target="c598f5bb-ac03-466b-a510-0a2688a75954" />
+                        <Move To="451,782" At="fe09127c-a90b-4a4a-89dd-732c56e20a40" Target="ff88e384-aa62-4289-8e84-74f7233602a1" />
+                        <Move To="41,965" At="fe09127c-a90b-4a4a-89dd-732c56e20a40" Target="fff09a34-731a-4ef4-b97a-aa77804a3227" />
+                        <Move To="56,929" At="fe09127c-a90b-4a4a-89dd-732c56e20a40" Target="78792abf-cca5-4279-a5c8-3a570868b21e" />
+                        <Move To="572,981" At="fe09127c-a90b-4a4a-89dd-732c56e20a40" Target="265e880e-8297-4fc3-b92c-fae30741aca7" />
+                        <Move To="550,981" At="fe09127c-a90b-4a4a-89dd-732c56e20a40" Target="c9141a54-d360-4281-9d71-2143007e9f2b" />
+                        <Move To="38,33" At="fe09127c-a90b-4a4a-89dd-732c56e20a40" Target="cc56170d-0620-4ecf-b809-bba68e5516ea" />
+                        <Move To="60,169" At="fe09127c-a90b-4a4a-89dd-732c56e20a40" Target="2677eeae-96a2-497c-93ce-210813241287" />
+                        <Move To="64,460" At="fe09127c-a90b-4a4a-89dd-732c56e20a40" Target="d92dfd25-8406-40ce-836c-2915eb97e27b" />
+                        <Move To="115,51" At="fe09127c-a90b-4a4a-89dd-732c56e20a40" Target="4160670e-7ad7-4348-b7bb-f994b6e60581" />
+                        <Move To="304,854" At="fe09127c-a90b-4a4a-89dd-732c56e20a40" Target="40f35b2a-4d50-4ed6-9a49-cbad612b6b91" />
+                        <Move To="642,169" At="fe09127c-a90b-4a4a-89dd-732c56e20a40" Target="ae6acd27-a301-45bc-9fcc-e6c2a0205662" />
+                        <Move To="657,222" At="fe09127c-a90b-4a4a-89dd-732c56e20a40" Target="699214e0-bf49-4c2b-8a5a-329d419e1748" />
+                        <Move To="909,219" At="fe09127c-a90b-4a4a-89dd-732c56e20a40" Target="352302e9-bd73-4c17-99d5-c19a8a260576" />
+                        <Move To="657,251" At="fe09127c-a90b-4a4a-89dd-732c56e20a40" Target="6fb4846e-dc20-4cef-9857-e5a932672003" />
+                        <Move To="909,247" At="fe09127c-a90b-4a4a-89dd-732c56e20a40" Target="0f388f89-0365-4439-b9b9-268dc5f582a4" />
+                        <Move To="996,217" At="fe09127c-a90b-4a4a-89dd-732c56e20a40" Target="076d34b4-cfba-427b-ab9e-42e7be82a385" />
+                        <Move To="994,246" At="fe09127c-a90b-4a4a-89dd-732c56e20a40" Target="1f0379f3-e752-43fd-abf7-987f9f422154" />
+                        <Move To="659,282" At="fe09127c-a90b-4a4a-89dd-732c56e20a40" Target="1eb8a84c-85a5-4ba5-a17c-94472ad6c51c" />
+                        <Move To="911,278" At="fe09127c-a90b-4a4a-89dd-732c56e20a40" Target="5e2d0d44-a13d-4dc1-b78c-c07490c091ba" />
+                        <Move To="996,277" At="fe09127c-a90b-4a4a-89dd-732c56e20a40" Target="0be42313-1e9d-4887-9b4a-c2f5fca8d4f2" />
+                        <Move To="659,315" At="fe09127c-a90b-4a4a-89dd-732c56e20a40" Target="88d9dce1-6fec-432e-b921-2feae34342ab" />
+                        <Move To="911,311" At="fe09127c-a90b-4a4a-89dd-732c56e20a40" Target="1f3af54a-dc44-41bc-b564-c56f451fdcda" />
+                        <Move To="996,310" At="fe09127c-a90b-4a4a-89dd-732c56e20a40" Target="fe3e27f2-4c91-46d2-baa9-03e433327531" />
+                        <Move To="657,347" At="fe09127c-a90b-4a4a-89dd-732c56e20a40" Target="1e9474e9-6fe7-4e1c-a5c4-7042624086ba" />
+                        <Move To="909,343" At="fe09127c-a90b-4a4a-89dd-732c56e20a40" Target="a5bcb888-6b48-42e0-890e-9431c6430e2d" />
+                        <Move To="994,342" At="fe09127c-a90b-4a4a-89dd-732c56e20a40" Target="94c3141b-0c49-4f9b-ab35-1a54c7d9a316" />
+                        <Move To="659,378" At="fe09127c-a90b-4a4a-89dd-732c56e20a40" Target="9a0d8cb0-da6e-4850-b12b-e44e47e7a49e" />
+                        <Move To="911,374" At="fe09127c-a90b-4a4a-89dd-732c56e20a40" Target="b3190659-b364-4134-bc08-20651dd7c336" />
+                        <Move To="996,373" At="fe09127c-a90b-4a4a-89dd-732c56e20a40" Target="95e47b27-6704-4318-af74-5a8041c6bcc4" />
+                        <Move To="657,410" At="fe09127c-a90b-4a4a-89dd-732c56e20a40" Target="e212e2ce-b113-404d-b810-104182bc36da" />
+                        <Move To="909,406" At="fe09127c-a90b-4a4a-89dd-732c56e20a40" Target="fcd0b671-993c-472c-b572-21d77ac8f29a" />
+                        <Move To="994,405" At="fe09127c-a90b-4a4a-89dd-732c56e20a40" Target="dbbcc0b1-145b-4d08-98e2-4574282b4e3b" />
+                        <Move To="657,251" At="fe09127c-a90b-4a4a-89dd-732c56e20a40" Target="7d25cc27-15d0-4fd8-94af-63a2ef97a6e1" />
+                        <Move To="909,247" At="fe09127c-a90b-4a4a-89dd-732c56e20a40" Target="0a2fe7fb-c1d9-4ae4-ab5d-03e766e307c0" />
+                        <Move To="994,246" At="fe09127c-a90b-4a4a-89dd-732c56e20a40" Target="6d28b215-7d25-484d-b65b-32ddfe0f0c9d" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Selected Places" StateGroup="6588d964-b1a9-49a6-8a50-f96ec88eacc7" ParentScene="6588d964-b1a9-49a6-8a50-f96ec88eacc7" Created="10/31/2017 10:59:37" Id="0e2dc68b-7924-4658-b9c4-2e51704325e2">
+            <Scene.KeyFrames>
+                <KeyFrame Id="d1663bc5-d97b-4064-8e12-e96977a83cc3">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="cea6a7bd-9bd8-4bb2-b072-122bb87da637">
+                            <Add.Item>
+                                <ContainerBox Background="#FFD3E1B5" Id="426b2238-d87b-4963-9d4d-073fe283f2bd" Panel.Bounds="643,208,448{5,2147483647},256{5,2147483647}">
+                                    <ContainerBox.Content>
+                                        <Container ClipToContainer="True" Id="2c233b09-2bae-479e-b96a-d77883439451" />
+                                    </ContainerBox.Content>
+                                </ContainerBox>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="cea6a7bd-9bd8-4bb2-b072-122bb87da637">
+                            <Add.Item>
+                                <MapMock MockType="Street Map" Id="2d78c406-740f-4474-8ebf-9992998b2a23" Panel.Bounds="655,222,243{5,2147483647},236{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="cea6a7bd-9bd8-4bb2-b072-122bb87da637">
+                            <Add.Item>
+                                <Label RichText="Sports Hall, Sofia" FontSize="18" FontFamily="Open Sans" Id="6215f8b5-79a9-48e2-b721-d4ed24ca0540" Panel.Bounds="933,283,145{5,2147483647},65{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="cea6a7bd-9bd8-4bb2-b072-122bb87da637">
+                            <Add.Item>
+                                <Icon CatalogId="fa-location-arrow" Id="c8a7856b-e3e1-4644-91bb-1607275847be" Panel.Bounds="904,283,22{5,2147483647},22{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="cea6a7bd-9bd8-4bb2-b072-122bb87da637">
+                            <Add.Item>
+                                <Label RichText="Vasil Levski 73, Sofia, Bulgaria" FontSize="18" FontFamily="Open Sans" Id="7fd6a28a-e924-44f2-b5c9-1051d45d3693" Panel.Bounds="917,365,161{5,2147483647},108{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="cea6a7bd-9bd8-4bb2-b072-122bb87da637">
+                            <Add.Item>
+                                <Icon Color="#FFE70000" CatalogId="linea-pin2" Id="c9686914-453b-425b-a867-2e9fd762454b" Panel.Bounds="749,372,32{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="TabItem.Selected" Target="8cecac1a-b113-40ba-8037-b6276cd8ad09">
+                            <Add.Item>
+                                <CommandSwitchTo SceneId="0e2dc68b-7924-4658-b9c4-2e51704325e2" AutoRevertEvent="TabItem.Unselected" Created="10/31/2017 11:28:34" Id="62b4ac7a-a575-4e1a-890b-525fa0144c06" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="TabItem.Selected" Target="a7652711-a31b-4e92-9462-87cdb4d6a980">
+                            <Add.Item>
+                                <CommandSwitchTo SceneId="b884d240-fe79-4a51-8dc7-252de50ca55c" AutoRevertEvent="TabItem.Unselected" Created="10/31/2017 11:35:13" Id="395c36c2-7176-4b49-bfdb-8a28af509eff" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="TabItem.Selected" Target="c15ab860-b7bd-46ba-bf17-c86836e298f4">
+                            <Add.Item>
+                                <CommandSwitchTo SceneId="6588d964-b1a9-49a6-8a50-f96ec88eacc7" AutoRevertEvent="TabItem.Unselected" Created="10/31/2017 11:24:06" Id="ab82df29-899b-401d-a726-1d32517d374e" />
+                            </Add.Item>
+                        </Add>
+                        <Set Property="ItemBase.IsSelected" Value="True" Target="8cecac1a-b113-40ba-8037-b6276cd8ad09" />
+                        <Set Property="ItemBase.IsSelected" Value="False" Target="c15ab860-b7bd-46ba-bf17-c86836e298f4" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Selected Artists" ParentScene="0e2dc68b-7924-4658-b9c4-2e51704325e2" Created="10/31/2017 11:35:13" Id="b884d240-fe79-4a51-8dc7-252de50ca55c">
+            <Scene.KeyFrames>
+                <KeyFrame Id="136559cf-7bc5-4856-b043-2bd8a72ac828">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="cea6a7bd-9bd8-4bb2-b072-122bb87da637">
+                            <Add.Item>
+                                <Tabs Background="#FFD3E1B5" TabBackground="#FFBCD290" Id="f419be2d-3fb4-45fb-bcec-dd7f14d082bf" Panel.Bounds="642,177,450{5,2147483647},286{5,2147483647}">
+                                    <Tabs.Items>
+                                        <TabItem Header="Events" Id="01685d4a-9268-4f37-a909-657521e0883c">
+                                            <TabItem.Content>
+                                                <Container ClipToContainer="True" Id="6f26563d-7b2a-42e2-993c-d9e398342efa" />
+                                            </TabItem.Content>
+                                            <TabItem.Selected>
+                                                <CommandSwitchTo SceneId="745482db-8bc3-449c-9e01-3da737c9154f" AutoRevertEvent="TabItem.Unselected" Created="10/31/2017 11:47:44" Id="36ebe6fa-5d7b-40f1-bc9e-cbc8513ae687" />
+                                            </TabItem.Selected>
+                                        </TabItem>
+                                        <TabItem Header="Calendar" Id="0b0ffac1-93cd-459a-bdca-1fa785aaa907">
+                                            <TabItem.Content>
+                                                <Container ClipToContainer="True" Id="38f52cfb-2a9e-4c61-88a1-408b8565e713" />
+                                            </TabItem.Content>
+                                            <TabItem.Selected>
+                                                <CommandSwitchTo SceneId="6588d964-b1a9-49a6-8a50-f96ec88eacc7" AutoRevertEvent="TabItem.Unselected" Created="10/31/2017 11:47:36" Id="e2e4bac1-802e-47dc-b232-9abefe9b6c18" />
+                                            </TabItem.Selected>
+                                        </TabItem>
+                                        <TabItem Header="Places" Id="eb3ebf35-dcfc-4115-b013-18c17d26b8f3">
+                                            <TabItem.Content>
+                                                <Container ClipToContainer="True" Id="36e5a2c7-4a81-4719-aa74-0b0a1c254bf9" />
+                                            </TabItem.Content>
+                                            <TabItem.Selected>
+                                                <CommandSwitchTo SceneId="0e2dc68b-7924-4658-b9c4-2e51704325e2" AutoRevertEvent="TabItem.Unselected" Created="10/31/2017 11:47:27" Id="aca0fc52-733f-4079-a52d-601e499a53d2" />
+                                            </TabItem.Selected>
+                                        </TabItem>
+                                        <TabItem Header="Artists" IsSelected="True" Id="17bdb9ee-3315-48ce-b729-98967cba7e74">
+                                            <TabItem.Content>
+                                                <Container ClipToContainer="True" Id="d233e198-8cff-423e-9026-b19cb0db5171" />
+                                            </TabItem.Content>
+                                            <TabItem.Selected>
+                                                <CommandSwitchTo SceneId="b884d240-fe79-4a51-8dc7-252de50ca55c" AutoRevertEvent="TabItem.Unselected" Created="10/31/2017 11:53:33" Id="7679e100-54f6-499b-b1bf-057c41c7a7ad" />
+                                            </TabItem.Selected>
+                                        </TabItem>
+                                        <TabItem Header="Gernes" Id="5a5caad5-eaff-46f1-83e3-399e24cb1808">
+                                            <TabItem.Content>
+                                                <Container ClipToContainer="True" Id="5d672f5b-8ccc-45ab-af1b-8b35677cae94" />
+                                            </TabItem.Content>
+                                        </TabItem>
+                                    </Tabs.Items>
+                                </Tabs>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="cea6a7bd-9bd8-4bb2-b072-122bb87da637">
+                            <Add.Item>
+                                <Label RichText="&lt;Run FontSize=&quot;18&quot; &gt;A B C D E F G H I &lt;/Run&gt;&lt;Run FontSize=&quot;18&quot; Foreground=&quot;#FFE70000&quot; &gt;J &lt;/Run&gt;&lt;Run FontSize=&quot;18&quot; &gt;K L M N O P Q R S T U V X Y Z&lt;/Run&gt;" FontFamily="Open Sans" Id="f4c63440-647c-4f41-9b35-3d894beb20ed" Panel.Bounds="675,217,432{5,2147483647},18*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="cea6a7bd-9bd8-4bb2-b072-122bb87da637">
+                            <Add.Item>
+                                <Tabs Background="#FFD3E1B5" TabBackground="#FFBCD290" Id="2d196499-0f4c-4fc8-bff9-6b34b414f7fb" Panel.Bounds="642,177,450{5,2147483647},286{5,2147483647}">
+                                    <Tabs.Items>
+                                        <TabItem Header="Events" Id="55695f5b-b06a-432d-b07d-f4cdc2d4291d">
+                                            <TabItem.Content>
+                                                <Container ClipToContainer="True" Id="77a12f80-ca8d-49c4-8b16-7929f95e41ec" />
+                                            </TabItem.Content>
+                                            <TabItem.Selected>
+                                                <CommandSwitchTo SceneId="745482db-8bc3-449c-9e01-3da737c9154f" AutoRevertEvent="TabItem.Unselected" Created="10/31/2017 12:30:37" Id="75d433db-3542-4695-b3d0-6c6b221a7e11" />
+                                            </TabItem.Selected>
+                                        </TabItem>
+                                        <TabItem Header="Calendar" Id="ee825d03-c2a3-4c88-ad0c-5e8a107fceae">
+                                            <TabItem.Content>
+                                                <Container ClipToContainer="True" Id="e5c408d4-e637-4271-b7ab-b2fffd2d03e8" />
+                                            </TabItem.Content>
+                                            <TabItem.Selected>
+                                                <CommandSwitchTo SceneId="6588d964-b1a9-49a6-8a50-f96ec88eacc7" AutoRevertEvent="TabItem.Unselected" Created="10/31/2017 12:30:48" Id="1027e745-e50c-4396-8765-5c9ad866f271" />
+                                            </TabItem.Selected>
+                                        </TabItem>
+                                        <TabItem Header="Places" Id="5c64c158-887a-46c9-9e09-7477b00f4074">
+                                            <TabItem.Content>
+                                                <Container ClipToContainer="True" Id="57f2212a-07ff-47c0-90ac-5f458db0e488" />
+                                            </TabItem.Content>
+                                            <TabItem.Selected>
+                                                <CommandSwitchTo SceneId="0e2dc68b-7924-4658-b9c4-2e51704325e2" AutoRevertEvent="TabItem.Unselected" Created="10/31/2017 12:30:54" Id="62b654d9-955a-4286-9cb6-019784f45bbc" />
+                                            </TabItem.Selected>
+                                        </TabItem>
+                                        <TabItem Header="Artists" Id="705fab8c-d7c5-4ed2-9201-266ab47d7d8b">
+                                            <TabItem.Content>
+                                                <Container ClipToContainer="True" Id="c946dacf-0eed-46c6-b4f7-867b1cbcfaab" />
+                                            </TabItem.Content>
+                                        </TabItem>
+                                        <TabItem Header="Gernes" IsSelected="True" Id="1ebfaa0f-df3b-4b84-b243-d149c1efd05a">
+                                            <TabItem.Content>
+                                                <Container ClipToContainer="True" Id="747dd94e-cf88-405f-9b99-f45085b6065d" />
+                                            </TabItem.Content>
+                                            <TabItem.Selected>
+                                                <CommandSwitchTo SceneId="e9126ece-2d09-45e4-b724-c6c7b5450075" AutoRevertEvent="TabItem.Unselected" Created="10/31/2017 12:17:14" Id="d9ff7b5a-625b-49ec-9bb7-a9e3a56f80f5" />
+                                            </TabItem.Selected>
+                                        </TabItem>
+                                    </Tabs.Items>
+                                </Tabs>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="cea6a7bd-9bd8-4bb2-b072-122bb87da637">
+                            <Add.Item>
+                                <Label RichText="&lt;Run FontSize=&quot;18&quot; &gt;A B C D E F G H I &lt;/Run&gt;&lt;Run FontSize=&quot;18&quot; Foreground=&quot;#FFE70000&quot; &gt;J &lt;/Run&gt;&lt;Run FontSize=&quot;18&quot; &gt;K L M N O P Q R S T U V X Y Z&lt;/Run&gt;" FontFamily="Open Sans" Id="17262503-284f-442b-a085-1807e65645ef" Panel.Bounds="670,217,432{5,2147483647},18*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="cea6a7bd-9bd8-4bb2-b072-122bb87da637">
+                            <Add.Item>
+                                <Label RichText="A. B. Jackson &#xD;&#xA;Robert Jacobsen &#xD;&#xA;Lambert Jacobsz &#xD;&#xA;Yvonne Jacquette &#xD;&#xA;Jan Jahn &#xD;&#xA;Božidar Jakac &#xD;&#xA;Rihard Jakopič &#xD;&#xA;Matija Jama &#xD;&#xA;Terrell James &#xD;&#xA;Jang Seung-eop&#xD;&#xA;Louis Janmot (1814–1892), French painter and poet&#xD;&#xA;Ruud Janssen (born 1959), Dutch Fluxus and mail artist" FontFamily="Open Sans" Id="7a096575-117b-4274-ab37-0a9995376b08" Panel.Bounds="682,269,162{5,2147483647},177{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="cea6a7bd-9bd8-4bb2-b072-122bb87da637">
+                            <Add.Item>
+                                <Label RichText="A. B. Jackson &#xD;&#xA;Robert Jacobsen &#xD;&#xA;Lambert Jacobsz &#xD;&#xA;Yvonne Jacquette &#xD;&#xA;Jan Jahn &#xD;&#xA;Božidar Jakac &#xD;&#xA;Rihard Jakopič &#xD;&#xA;Matija Jama &#xD;&#xA;Terrell James &#xD;&#xA;Jang Seung-eop&#xD;&#xA;Louis Janmot (1814–1892), French painter and poet&#xD;&#xA;Ruud Janssen (born 1959), Dutch Fluxus and mail artist" FontFamily="Open Sans" Id="50c63e6b-934a-4b61-ae7d-0c9f4aa7a01e" Panel.Bounds="805,269,162{5,2147483647},177{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="cea6a7bd-9bd8-4bb2-b072-122bb87da637">
+                            <Add.Item>
+                                <Label RichText="A. B. Jackson &#xD;&#xA;Robert Jacobsen &#xD;&#xA;Lambert Jacobsz &#xD;&#xA;Yvonne Jacquette &#xD;&#xA;Jan Jahn &#xD;&#xA;Božidar Jakac &#xD;&#xA;Rihard Jakopič &#xD;&#xA;Matija Jama &#xD;&#xA;Terrell James &#xD;&#xA;Jang Seung-eop&#xD;&#xA;Louis Janmot (1814–1892), French painter and poet&#xD;&#xA;Ruud Janssen (born 1959), Dutch Fluxus and mail artist" FontFamily="Open Sans" Id="cf52dc68-83a8-4583-8cbc-82362ae58e5f" Panel.Bounds="938,269,162{5,2147483647},177{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Selected Gernes" ParentScene="745482db-8bc3-449c-9e01-3da737c9154f" Created="10/31/2017 12:01:58" Id="e9126ece-2d09-45e4-b724-c6c7b5450075">
+            <Scene.KeyFrames>
+                <KeyFrame Id="aa7e98dd-e8f2-4d45-869c-3c9a3c0538d5">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="cea6a7bd-9bd8-4bb2-b072-122bb87da637">
+                            <Add.Item>
+                                <Tabs Background="#FFD3E1B5" TabBackground="#FFBCD290" Id="caaf1639-79f9-4f93-b934-6a8ea5fe57c8" Panel.Bounds="642,177,450{5,2147483647},286{5,2147483647}">
+                                    <Tabs.Items>
+                                        <TabItem Header="Events" Id="ea5f56a4-9e2d-4ced-be2a-8abb73ebfdb0">
+                                            <TabItem.Content>
+                                                <Container ClipToContainer="True" Id="ef1e5d9b-a006-4622-b0fd-a41d695428ff" />
+                                            </TabItem.Content>
+                                            <TabItem.Selected>
+                                                <CommandSwitchTo SceneId="745482db-8bc3-449c-9e01-3da737c9154f" AutoRevertEvent="TabItem.Unselected" Created="10/31/2017 12:18:52" Id="fe46a487-c93e-4f32-8fa7-2166ffdd475f" />
+                                            </TabItem.Selected>
+                                        </TabItem>
+                                        <TabItem Header="Calendar" Id="40d8d38e-d028-42a6-aa0b-38f55205d326">
+                                            <TabItem.Content>
+                                                <Container ClipToContainer="True" Id="d122c197-9f83-44e2-9c44-7a438cd888ae" />
+                                            </TabItem.Content>
+                                            <TabItem.Selected>
+                                                <CommandSwitchTo SceneId="6588d964-b1a9-49a6-8a50-f96ec88eacc7" AutoRevertEvent="TabItem.Unselected" Created="10/31/2017 12:16:03" Id="1d750ba0-69ee-4eb8-aab7-5c54f5c03a01" />
+                                            </TabItem.Selected>
+                                        </TabItem>
+                                        <TabItem Header="Places" Id="76d14129-22b2-45f3-a7c7-aea8f9888306">
+                                            <TabItem.Content>
+                                                <Container ClipToContainer="True" Id="b106f6a9-f39c-40e7-8a6d-4c09b1aadad2" />
+                                            </TabItem.Content>
+                                            <TabItem.Selected>
+                                                <CommandSwitchTo SceneId="0e2dc68b-7924-4658-b9c4-2e51704325e2" AutoRevertEvent="TabItem.Unselected" Created="10/31/2017 12:15:14" Id="2e5dd9c5-cade-4781-b067-366bc45da9cb" />
+                                            </TabItem.Selected>
+                                        </TabItem>
+                                        <TabItem Header="Artists" Id="246a7b07-6900-4369-a95b-4eaf032d4233">
+                                            <TabItem.Content>
+                                                <Container ClipToContainer="True" Id="1d189fbe-2e51-426f-a78c-51735b96fc9b" />
+                                            </TabItem.Content>
+                                            <TabItem.Selected>
+                                                <CommandSwitchTo SceneId="b884d240-fe79-4a51-8dc7-252de50ca55c" AutoRevertEvent="TabItem.Unselected" Created="10/31/2017 12:15:05" Id="e3ccf2e6-eac7-4238-a29b-8612d321d997" />
+                                            </TabItem.Selected>
+                                        </TabItem>
+                                        <TabItem Header="Gernes" IsSelected="True" Id="a04df1eb-427e-4188-a669-2e301990f39e">
+                                            <TabItem.Content>
+                                                <Container ClipToContainer="True" Id="afb1e1ff-bf72-48fb-b53e-a937e7c4f460" />
+                                            </TabItem.Content>
+                                            <TabItem.Selected>
+                                                <CommandSwitchTo SceneId="e9126ece-2d09-45e4-b724-c6c7b5450075" AutoRevertEvent="TabItem.Unselected" Created="10/31/2017 12:14:53" Id="7a8659d7-62aa-4098-9ffc-3c478e3ea0c6" />
+                                            </TabItem.Selected>
+                                        </TabItem>
+                                    </Tabs.Items>
+                                </Tabs>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="cea6a7bd-9bd8-4bb2-b072-122bb87da637">
+                            <Add.Item>
+                                <Label RichText="&lt;Run FontSize=&quot;18&quot; &gt;A B C D E F G H I &lt;/Run&gt;&lt;Run FontSize=&quot;18&quot; Foreground=&quot;#FFE70000&quot; &gt;J &lt;/Run&gt;&lt;Run FontSize=&quot;18&quot; &gt;K L M N O P Q R S T U V X Y Z&lt;/Run&gt;" FontFamily="Open Sans" Id="ce83c0f4-7bf0-4510-a4da-79220270dc0d" Panel.Bounds="670,217,432{5,2147483647},18*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="cea6a7bd-9bd8-4bb2-b072-122bb87da637">
+                            <Add.Item>
+                                <Label RichText="Jaipongan &#xD;&#xA;Jam &#xD;&#xA;Jamrieng samai  &#xD;&#xA;Jangle pop &#xD;&#xA;Japanoise &#xD;&#xA;Jarana yucateca&#xD;&#xA;Jawaiian&#xD;&#xA;Jazz&#xD;&#xA;Jazz blues &#xD;&#xA;Jazz-funk" FontFamily="Open Sans" Id="6d3abef0-9c3d-4110-b36b-7b2ce4c2c6d0" Panel.Bounds="680,269,162{5,2147483647},177{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="cea6a7bd-9bd8-4bb2-b072-122bb87da637">
+                            <Add.Item>
+                                <Label RichText="Jaipongan &#xD;&#xA;Jam &#xD;&#xA;Jamrieng samai  &#xD;&#xA;Jangle pop &#xD;&#xA;Japanoise &#xD;&#xA;Jarana yucateca&#xD;&#xA;Jawaiian&#xD;&#xA;Jazz&#xD;&#xA;Jazz blues &#xD;&#xA;Jazz-funk" FontFamily="Open Sans" Id="ab0a792b-1b30-4c54-ba99-9c0b722be975" Panel.Bounds="811,269,162{5,2147483647},177{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="cea6a7bd-9bd8-4bb2-b072-122bb87da637">
+                            <Add.Item>
+                                <Label RichText="Jaipongan &#xD;&#xA;Jam &#xD;&#xA;Jamrieng samai  &#xD;&#xA;Jangle pop &#xD;&#xA;Japanoise &#xD;&#xA;Jarana yucateca&#xD;&#xA;Jawaiian&#xD;&#xA;Jazz&#xD;&#xA;Jazz blues &#xD;&#xA;Jazz-funk" FontFamily="Open Sans" Id="3e4751bc-1867-46ec-ab66-700c580f018d" Panel.Bounds="942,269,162{5,2147483647},177{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Tapped/Clicked fa-stack-exchange" StateGroup="745482db-8bc3-449c-9e01-3da737c9154f" ParentScene="745482db-8bc3-449c-9e01-3da737c9154f" Created="11/03/2017 07:52:56" Id="af8cc640-52c4-4202-b31f-57e2aea4a8fb">
+            <Scene.KeyFrames>
+                <KeyFrame Id="78e86c21-f2f7-4896-b48d-872647b2e5e7">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="cea6a7bd-9bd8-4bb2-b072-122bb87da637">
+                            <Add.Item>
+                                <Button Text="Personal Details" Background="#FFD3E1B5" CornerRadius="11" Foreground="#FF465724" FontFamily="Open Sans" Id="7b183617-850d-4cb8-a240-a5d0a4f10059" Panel.Bounds="979,117,109{5,2147483647},35{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="cea6a7bd-9bd8-4bb2-b072-122bb87da637">
+                            <Add.Item>
+                                <Button Text="Payment Details" Background="#FFD3E1B5" CornerRadius="11" Foreground="#FF465724" FontFamily="Open Sans" Id="2b3ba79d-4f26-4947-bdbb-cb5b9a99d894" Panel.Bounds="979,152,109{5,2147483647},35{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="cea6a7bd-9bd8-4bb2-b072-122bb87da637">
+                            <Add.Item>
+                                <Button Text="FAQ" Background="#FFD3E1B5" CornerRadius="11" Foreground="#FF465724" FontFamily="Open Sans" Id="c6920efa-c04b-442a-a1b4-99dc3f990547" Panel.Bounds="979,187,109{5,2147483647},35{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="cea6a7bd-9bd8-4bb2-b072-122bb87da637">
+                            <Add.Item>
+                                <Button Text="Logout" Background="#FFD3E1B5" CornerRadius="11" Foreground="#FF465724" FontFamily="Open Sans" Id="025ed376-195c-4d07-a24d-6d4e12d1d59f" Panel.Bounds="979,221,109{5,2147483647},35{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Control.Click" Target="7af4cda8-2820-45db-b643-b2860d0f62e8">
+                            <Add.Item>
+                                <CommandSwitchTo SceneId="745482db-8bc3-449c-9e01-3da737c9154f" Created="11/03/2017 07:54:07" Id="38eb5771-6244-4ad7-b960-b6d12817c605" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Control.Click" Target="154622cc-f74f-4e14-9687-572ac7b4fb3b">
+                            <Add.Item>
+                                <CommandNavigate Screen="/Buy Tickets (Logged).screen" Created="11/03/2017 07:54:34" Id="56eec37d-0fa6-494e-a752-0fa36eff8535">
+                                    <CommandNavigate.Transition>
+                                        <NavigateTransition Duration="0" />
+                                    </CommandNavigate.Transition>
+                                </CommandNavigate>
+                            </Add.Item>
+                        </Add>
+                        <Remove Target="c71d017b-3e92-47a4-a811-277b22900691" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>

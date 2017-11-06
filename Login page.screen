@@ -1,0 +1,195 @@
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.0.72"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                Id="efb2c0b3-023f-4c0c-8b37-b590d05dca0c">
+    <Page.Content>
+        <Content Width="1024" Height="768" Id="61acb387-16d0-487b-ae5e-0dc3903bf7ff">
+            <Content.Layers>
+                <Layer Id="d7fafd4a-33e4-4435-b580-5783a9ee9eff" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="550d3700-bafd-4a81-808a-ec6bb90cc40d" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="1024,768" Id="79649cd7-bf4f-42ca-bfb1-a64cdcd6114b" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="898f7229-9cbf-4e94-96d1-f8db8dac8567" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="Browser" Orientation="None" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="10/31/2017 21:01:44" Id="697ed297-4825-494a-8e2b-306fb0866f6c">
+            <Scene.KeyFrames>
+                <KeyFrame Id="dfd97c76-2b7a-48b2-9ca4-1a2f12a0cdf3">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="d7fafd4a-33e4-4435-b580-5783a9ee9eff">
+                            <Add.Item>
+                                <Group GroupName="Group" Id="0ca8692a-5d46-4e9a-9858-efa4e56ceecf" Panel.Bounds="26,526,0*,0*">
+                                    <Group.Children>
+                                        <Line Thickness="1" RotationAngle="0.0515713447706077" Color="#FFA6C36B" Background="#00FFFFFF" Id="0c087f48-8ce6-4324-a730-df7472ef83ec" Panel.Bounds="11,146,929{1,2147483647},2{1,2147483647}">
+                                            <Line.StartPoint>
+                                                <Point X="35" Y="9" Id="3c941f0e-cee4-41a1-9932-6539314ed408" />
+                                            </Line.StartPoint>
+                                            <Line.Segments>
+                                                <Segment Id="de77924b-7a63-4d85-a876-8a1d9274d12b">
+                                                    <Segment.EndPoint>
+                                                        <Point X="1146" Y="10" Id="adc90ce1-8a31-4a80-8122-db834c66ecf1" />
+                                                    </Segment.EndPoint>
+                                                </Segment>
+                                            </Line.Segments>
+                                        </Line>
+                                        <Icon Color="#FFAAAAAA" CatalogId="fa-apple" Id="b48b03db-b9b4-4da5-8e4a-43997400b684" Panel.Bounds="1,94,26{5,2147483647},26{5,2147483647}" />
+                                        <Icon Color="#FF4281D0" CatalogId="fa-twitter" Id="6246d8fd-a704-40f9-ab7c-ba6a7804c680" Panel.Bounds="100,94,26{5,2147483647},26{5,2147483647}" />
+                                        <Icon Color="#FF48C157" CatalogId="fa-android" Id="7aa19695-35e0-4d1b-b9e0-e3faa10d9200" Panel.Bounds="48,94,26{5,2147483647},26{5,2147483647}" />
+                                        <Icon Color="#FF6397C4" CatalogId="fa-skype" Id="5fdde3dc-d382-43f0-9772-22ff64c7df88" Panel.Bounds="151,94,26{5,2147483647},26{5,2147483647}" />
+                                        <TextBox Text="Emali address here..." Background="#FFE2E2E2" Id="91c754e6-82f9-4d7e-b064-35a82c7f208f" Panel.Bounds="1,40,188{5,2147483647},5*{5,2147483647}" />
+                                        <Button Text="Contact Us" Background="#FF75D181" CornerRadius="8" Id="a4d5a676-311e-4f11-a0f1-bc70d67b2162" Panel.Bounds="208,32,81{5,2147483647},35{5,2147483647}" />
+                                        <Link Text="Privacy Policy" Foreground="#FF555555" FontStyle="Normal|Underline" Id="2d87de82-9623-4e61-858b-86c15041510f" Panel.Bounds="842,32,5*{5,2147483647},5*{5,2147483647}" />
+                                        <Link Text="Networks" Foreground="#FF555555" FontStyle="Normal|Underline" Id="118b73e5-23db-4d2c-9044-38f1a6aa05c4" Panel.Bounds="846,69,5*{5,2147483647},5*{5,2147483647}" />
+                                        <Link Text="Become a vip member" Foreground="#FF555555" FontStyle="Normal|Underline" Id="3a36f1b7-4a51-4154-bfde-8918cdd4203c" Panel.Bounds="830,105,5*{5,2147483647},5*{5,2147483647}" />
+                                        <Label RichText="NAVIGATE..." FontStyle="Bold" Id="f4979e87-2a9e-463f-bb67-e57f1321129b" Panel.Bounds="784,0,89{5,2147483647},16{5,2147483647}" />
+                                        <Label RichText="STAY CONNECTED..." FontStyle="Bold" Id="cc41a37c-3645-462c-a010-8768f00925ca" Panel.Bounds="29,0,148{5,2147483647},16{5,2147483647}" />
+                                        <Link Text="Events" Foreground="#FF555555" FontStyle="Normal|Underline" Id="8d8e72de-aa2b-4831-8e43-5f129c1cac0c" Panel.Bounds="731,32,5*{5,2147483647},5*{5,2147483647}" />
+                                        <Link Text="Categories" Foreground="#FF555555" FontStyle="Normal|Underline" Id="beafc007-0fde-47e7-bfcc-a1d4899ef708" Panel.Bounds="725,105,5*{5,2147483647},5*{5,2147483647}" />
+                                        <Link Text="Terms &amp; Conditions" Foreground="#FF555555" FontStyle="Normal|Underline" Id="6ff137af-69d0-4b4b-88ec-5e56e3830a71" Panel.Bounds="705,69,5*{5,2147483647},5*{5,2147483647}" />
+                                        <Label RichText="SAMPE ARTICLE ..." FontStyle="Bold" Id="b54756f7-376b-4481-a15e-1702dcfb1cc6" Panel.Bounds="402,0,131{5,2147483647},16{5,2147483647}" />
+                                        <Label RichText="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget nibh risus. Curabitur posuere ex nec magna pretium, hendrerit iaculis sem condimentum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque vel facilisis sapien, vel luctus risus." Id="ecb1dbd8-feaa-42f0-8f62-99c487167951" Panel.Bounds="366,32,262{5,2147483647},90{5,2147483647}" />
+                                        <Line Thickness="1" RotationAngle="0.192105833396013" Color="#FF8DAE47" Background="#00FFFFFF" Id="988e8335-d30b-4598-bc36-0850a8c835a5" Panel.Bounds="-14,194,998{1,2147483647},3{1,2147483647}">
+                                            <Line.StartPoint>
+                                                <Point X="-482" Y="-5" Id="21bb1e1a-943b-4ee0-8aea-e46ea07d7531" />
+                                            </Line.StartPoint>
+                                            <Line.Segments>
+                                                <Segment Id="72805c8b-4133-480f-9ff6-95e853d1e20d">
+                                                    <Segment.EndPoint>
+                                                        <Point X="711" Y="-1" Id="02e8f3c1-a9aa-4233-a2df-ebdc3f554e8c" />
+                                                    </Segment.EndPoint>
+                                                </Segment>
+                                            </Line.Segments>
+                                        </Line>
+                                        <Label RichText="Aliquam quis volutpat eros. Sed pulvinar nibh eget risus tempor, ut pretium nisi lobortis. Aenean fringilla facilisis urna nec malesuada. Sed justo lorem, fermentum dictum imperdiet " Foreground="#FF465724" FontStyle="Bold" Id="a2bdda38-19ae-41ea-b63f-45cd7d426ceb" Panel.Bounds="-2,162,961{5,2147483647},22{5,2147483647}" />
+                                        <Label RichText="&lt;Run Foreground=&quot;#FF717100&quot; FontWeight=&quot;Bold&quot; &gt;E-Trickets 2017&lt;/Run&gt;" FontFamily="Open Sans" Id="c116e26b-46f0-4da0-a3c0-2d0b528d7d5f" Panel.Bounds="430,208,81{5,2147483647},16{5,2147483647}" />
+                                        <Icon CatalogId="fa-copyright" Id="d7f7bd22-86b5-46c3-ab04-222a9faa15fe" Panel.Bounds="412,208,12{5,2147483647},12{5,2147483647}" />
+                                        <Icon Color="#FF277531" CatalogId="fa-calendar" Id="33c12891-6da7-4d7b-89f2-c9bd3359f352" Panel.Bounds="206,95,25{5,2147483647},25{5,2147483647}" />
+                                    </Group.Children>
+                                </Group>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="d7fafd4a-33e4-4435-b580-5783a9ee9eff">
+                            <Add.Item>
+                                <ContainerBox Background="#FFD3E1B5" Id="98bbe6c9-6357-40a5-a189-83e0898d0ae7" Panel.Bounds="0,0,1024{5,2147483647},768{5,2147483647}">
+                                    <ContainerBox.Content>
+                                        <Container ClipToContainer="True" Id="f3bf3d96-dc91-4588-85a0-74e8d29e1dec" />
+                                    </ContainerBox.Content>
+                                </ContainerBox>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="d7fafd4a-33e4-4435-b580-5783a9ee9eff">
+                            <Add.Item>
+                                <Group GroupName="Group" Id="87be970a-a10c-4c75-8506-356156a29136" Panel.Bounds="21,556,0*,0*">
+                                    <Group.Children>
+                                        <Line Thickness="1" RotationAngle="0.0515713447706077" Color="#FFA6C36B" Background="#00FFFFFF" Id="e423f7ea-8f55-4206-80ca-06dde9a733ae" Panel.Bounds="25,115,913{1,2147483647},2{1,2147483647}">
+                                            <Line.StartPoint>
+                                                <Point X="35" Y="9" Id="373d07ea-ed41-4b7f-b39a-0baac677886d" />
+                                            </Line.StartPoint>
+                                            <Line.Segments>
+                                                <Segment Id="cce16b40-9dc7-46cc-936f-e0434c88a50a">
+                                                    <Segment.EndPoint>
+                                                        <Point X="1146" Y="10" Id="70deab7e-dc11-4173-a631-40c0c4020025" />
+                                                    </Segment.EndPoint>
+                                                </Segment>
+                                            </Line.Segments>
+                                        </Line>
+                                        <Icon Color="#FFAAAAAA" CatalogId="fa-apple" Id="80d714b7-524a-4b5d-9f6b-d0a6a427688a" Panel.Bounds="12,64,29{5,2147483647},29{5,2147483647}" />
+                                        <Icon Color="#FF4281D0" CatalogId="fa-twitter" Id="24690dd8-367d-46e0-bcde-93369c59b719" Panel.Bounds="108,64,29{5,2147483647},29{5,2147483647}" />
+                                        <Icon Color="#FF48C157" CatalogId="fa-android" Id="3d3810da-a29d-4d5f-9175-cdbd38e05f22" Panel.Bounds="57,64,29{5,2147483647},29{5,2147483647}" />
+                                        <Icon Color="#FF6397C4" CatalogId="fa-skype" Id="8fb9bf88-966d-4e33-876e-98643a8153f4" Panel.Bounds="159,64,29{5,2147483647},29{5,2147483647}" />
+                                        <TextBox Text="Emali address here..." Background="#FFE2E2E2" Id="54df77de-27da-45ba-8a14-45ee6e6a973d" Panel.Bounds="16,10,185{5,2147483647},5*{5,2147483647}" />
+                                        <Button Text="Contact Us" Background="#FF75D181" CornerRadius="8" Id="85a41872-c846-472c-a616-ed38a61f9149" Panel.Bounds="219,1,75{5,2147483647},35{5,2147483647}" />
+                                        <Link Text="Privacy Policy" Foreground="#FF555555" FontStyle="Normal|Underline" Id="255e39b6-22ab-41cd-83f9-29cd433b2045" Panel.Bounds="840,1,5*{5,2147483647},5*{5,2147483647}" />
+                                        <Link Text="Networks" Foreground="#FF555555" FontStyle="Normal|Underline" Id="d900fe64-97d4-499a-831d-56fcc4a762f9" Panel.Bounds="844,38,5*{5,2147483647},5*{5,2147483647}" />
+                                        <Link Text="Become a vip member" Foreground="#FF555555" FontStyle="Normal|Underline" Id="4a23b89d-0c6b-4814-b98c-48398565d902" Panel.Bounds="828,76,5*{5,2147483647},5*{5,2147483647}" />
+                                        <Label RichText="NAVIGATE..." FontStyle="Bold" Id="d45aa389-801c-4b25-b4c6-f98dfbe3d5b1" Panel.Bounds="784,-30,89{5,2147483647},16{5,2147483647}" />
+                                        <Label RichText="STAY CONNECTED..." FontStyle="Bold" Id="f6b84871-db83-4cfb-a5a9-5a830eeb9f07" Panel.Bounds="41,-30,136{5,2147483647},16{5,2147483647}" />
+                                        <Link Text="Events" Foreground="#FF555555" FontStyle="Normal|Underline" Id="bf06bc9d-250f-4410-b5a5-6f1e27526a39" Panel.Bounds="733,1,5*{5,2147483647},5*{5,2147483647}" />
+                                        <Link Text="Categories" Foreground="#FF555555" FontStyle="Normal|Underline" Id="33b0c35a-a7cc-46fe-b5da-8deb2081fdea" Panel.Bounds="725,76,5*{5,2147483647},5*{5,2147483647}" />
+                                        <Link Text="Terms &amp; Conditions" Foreground="#FF555555" FontStyle="Normal|Underline" Id="f24b00c7-f54f-4fc3-b8e4-3c1b0cedac37" Panel.Bounds="706,38,5*{5,2147483647},5*{5,2147483647}" />
+                                        <Label RichText="SAMPE ARTICLE ..." FontStyle="Bold" Id="3c121802-4f8b-4559-82ab-e792c3b2e041" Panel.Bounds="408,-30,130{5,2147483647},16{5,2147483647}" />
+                                        <Label RichText="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget nibh risus. Curabitur posuere ex nec magna pretium, hendrerit iaculis sem condimentum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque vel facilisis sapien, vel luctus risus." Id="ca98aef9-17ad-4a14-9bf4-fb035a2375c9" Panel.Bounds="337,1,292{5,2147483647},104{5,2147483647}" />
+                                        <Line Thickness="1" RotationAngle="0.192105833396013" Color="#FF8DAE47" Background="#00FFFFFF" Id="2c18e754-0ea5-43f6-9807-f8a6a68c3251" Panel.Bounds="0,164,980{1,2147483647},3{1,2147483647}">
+                                            <Line.StartPoint>
+                                                <Point X="-482" Y="-5" Id="0128caa5-cf1d-4420-80fd-2b4a51e34881" />
+                                            </Line.StartPoint>
+                                            <Line.Segments>
+                                                <Segment Id="f72515e1-3376-4a6c-948d-3adae3e7b469">
+                                                    <Segment.EndPoint>
+                                                        <Point X="711" Y="-1" Id="428bb82d-2da6-41bf-9231-c52ac0ff03e1" />
+                                                    </Segment.EndPoint>
+                                                </Segment>
+                                            </Line.Segments>
+                                        </Line>
+                                        <Label RichText="Aliquam quis volutpat eros. Sed pulvinar nibh eget risus tempor, ut pretium nisi lobortis. Aenean fringilla facilisis urna nec malesuada. Sed justo lorem, fermentum dictum imperdiet " Foreground="#FF465724" FontStyle="Bold" Id="11d61e75-28b7-4e9e-a626-b68465262f08" Panel.Bounds="12,132,944{5,2147483647},21{5,2147483647}" />
+                                        <Label RichText="&lt;Run Foreground=&quot;#FF717100&quot; FontWeight=&quot;Bold&quot; &gt;E-Trickets 2017&lt;/Run&gt;" FontFamily="Open Sans" Id="d1dea0d9-b19a-46c6-93f1-af90594cce55" Panel.Bounds="436,178,80{5,2147483647},16{5,2147483647}" />
+                                        <Icon CatalogId="fa-copyright" Id="941c64fe-795b-4813-a0f9-2b8ba2ffee42" Panel.Bounds="416,178,14{5,2147483647},14{5,2147483647}" />
+                                        <Icon Color="#FF277531" CatalogId="fa-calendar" Id="9e9b4af0-bdba-4326-9a12-c259bec609b3" Panel.Bounds="212,65,27{5,2147483647},27{5,2147483647}">
+                                            <Icon.Click>
+                                                <CommandNavigate Screen="/Event details (Not Logged).screen" Created="10/31/2017 21:31:13" Id="edc56b94-3564-4f36-b531-52e7ee7883da">
+                                                    <CommandNavigate.Transition>
+                                                        <NavigateTransition Duration="0" />
+                                                    </CommandNavigate.Transition>
+                                                </CommandNavigate>
+                                            </Icon.Click>
+                                        </Icon>
+                                    </Group.Children>
+                                </Group>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="d7fafd4a-33e4-4435-b580-5783a9ee9eff">
+                            <Add.Item>
+                                <TextBox WatermarkText="Username..." Background="#FFA6C36B" FontFamily="Open Sans" Id="5b0a7c10-1cac-4829-a9a1-fa00f59d6ff7" Panel.Bounds="367,251,120{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="d7fafd4a-33e4-4435-b580-5783a9ee9eff">
+                            <Add.Item>
+                                <PasswordBox WatermarkText="Password..." Background="#FFA6C36B" FontFamily="Open Sans" Id="0efafa8a-8163-4418-8359-98529e7790c6" Panel.Bounds="522,251,120{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="d7fafd4a-33e4-4435-b580-5783a9ee9eff">
+                            <Add.Item>
+                                <Button Text="Login" Background="#FFA6C36B" CornerRadius="11" FontFamily="Open Sans" Id="57e7902b-9b5f-4240-80d6-8e0f12c61eae" Panel.Bounds="464,309,80{5,2147483647},35{5,2147483647}">
+                                    <Button.Click>
+                                        <CommandNavigate Screen="/Home (Logged).screen" Created="11/02/2017 20:09:08" Id="356a14c9-d4a9-4d6b-bfd9-9f4e4b5df789">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Button.Click>
+                                </Button>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="d7fafd4a-33e4-4435-b580-5783a9ee9eff">
+                            <Add.Item>
+                                <Link Text="Forgotten password?" Foreground="#FF465724" FontFamily="Open Sans" FontStyle="Normal|Underline" Id="049e6033-e038-4063-bf15-4fc498d8a91e" Panel.Bounds="435,361,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="d7fafd4a-33e4-4435-b580-5783a9ee9eff">
+                            <Add.Item>
+                                <Icon Color="#FF349C42" CatalogId="fa-ticket" Scale="1,1" RotationAngle="-180" Id="8ce9b3e7-4a58-4b04-869e-e67083e143ac" Panel.Bounds="8,35,65{5,2147483647},65{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="d7fafd4a-33e4-4435-b580-5783a9ee9eff">
+                            <Add.Item>
+                                <Title RichText="e-Tickets" Foreground="#FF1A4E21" FontFamily="Open Sans" Id="6513500a-ed42-4e58-8c34-80f011435c1b" Panel.Bounds="85,53,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="d7fafd4a-33e4-4435-b580-5783a9ee9eff">
+                            <Add.Item>
+                                <TextArea WatermarkText="Search for events..." Background="#FFBCD290" FontSize="21" FontFamily="Open Sans" Id="e9a37af2-ba10-427b-8ba3-a53f1c14c8c5" Panel.Bounds="610,52,342{5,2147483647},39{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>

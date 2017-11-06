@@ -1,0 +1,85 @@
+﻿<?Infragistics.Models format="xaml" version="3" appVersion="9.2.0.72"?>
+<ScreenPart xmlns="http://prototypes.infragistics.com/"
+                                                                                     xmlns:d="http://prototypes.infragistics.com/views/design"
+                                                                                     Id="bb88da5d-2963-496d-aff9-28f105f8d1f0" d:Design.ShowGuides="False">
+    <ScreenPart.Content>
+        <BorderedContent Width="465" Height="286" Background="#00FFFFFF" Id="4c88301b-9c73-43ef-9576-f7cff8c736c5">
+            <BorderedContent.Layers>
+                <Layer Id="0b6fe23c-3377-47bd-bb2f-c1b996c0324b" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="b0e3f55d-02aa-4ff1-8202-a2668f03c0c2" Panel.Layout="Stretch" />
+            </BorderedContent.Layers>
+            <BorderedContent.Viewbox>
+                <Viewbox Id="122817ee-6ead-49d3-ab3f-30e5ad6cacb3" />
+            </BorderedContent.Viewbox>
+            <BorderedContent.GuidesInfo>
+                <GuidesInfo Id="4d6e6790-8240-4d2d-92bc-43b1cee067d5" />
+            </BorderedContent.GuidesInfo>
+        </BorderedContent>
+    </ScreenPart.Content>
+    <ScreenPart.Device>
+        <DeviceInfo Id="none" Orientation="None" />
+    </ScreenPart.Device>
+    <ScreenPart.Scenes>
+        <Scene Title="Start" Created="10/31/2017 11:43:36" Id="549f50f0-4722-41ca-8a96-a57238b4f12b">
+            <Scene.KeyFrames>
+                <KeyFrame Id="c1168b62-fe44-4643-866f-44159a07f650">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="0b6fe23c-3377-47bd-bb2f-c1b996c0324b">
+                            <Add.Item>
+                                <Tabs Background="#FFD3E1B5" TabBackground="#FFBCD290" Id="af024d8b-3a4c-440b-b041-5c4e2dd22965" Panel.Bounds="5,0,450{5,2147483647},286{5,2147483647}">
+                                    <Tabs.Items>
+                                        <TabItem Header="Events" Id="ad9b17ae-c637-449a-bb6c-282ac84abac5">
+                                            <TabItem.Content>
+                                                <Container ClipToContainer="True" Id="d68bf247-154e-486a-9ca3-8a46d22d22c6" />
+                                            </TabItem.Content>
+                                        </TabItem>
+                                        <TabItem Header="Calendar" Id="924717d7-c1d2-4cd5-9f38-7bea0aa793b7">
+                                            <TabItem.Content>
+                                                <Container ClipToContainer="True" Id="99941985-6df3-459a-a0de-a3de54e29d33" />
+                                            </TabItem.Content>
+                                        </TabItem>
+                                        <TabItem Header="Places" Id="0b818db6-120c-46f9-ba0a-b667d129d813">
+                                            <TabItem.Content>
+                                                <Container ClipToContainer="True" Id="07c57c00-f2a2-45ef-bb0b-afc01fb71b46" />
+                                            </TabItem.Content>
+                                        </TabItem>
+                                        <TabItem Header="Artists" Id="6ee7348f-a86b-4080-aff9-2d6e88eba1dc">
+                                            <TabItem.Content>
+                                                <Container ClipToContainer="True" Id="a2f1091c-3163-44f1-8fa6-7f6800ddbf0d" />
+                                            </TabItem.Content>
+                                        </TabItem>
+                                        <TabItem Header="Gernes" IsSelected="True" Id="6716be17-4b52-4e87-97e9-92dbab911bd3">
+                                            <TabItem.Content>
+                                                <Container ClipToContainer="True" Id="1015a459-6236-42db-9034-860478c6365b" />
+                                            </TabItem.Content>
+                                        </TabItem>
+                                    </Tabs.Items>
+                                </Tabs>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="0b6fe23c-3377-47bd-bb2f-c1b996c0324b">
+                            <Add.Item>
+                                <Label RichText="&lt;Run FontSize=&quot;18&quot; &gt;A B C D E F G H I &lt;/Run&gt;&lt;Run FontSize=&quot;18&quot; Foreground=&quot;#FFE70000&quot; &gt;J &lt;/Run&gt;&lt;Run FontSize=&quot;18&quot; &gt;K L M N O P Q R S T U V X Y Z&lt;/Run&gt;" FontFamily="Open Sans" Id="3c4b7726-0329-4aa7-998e-84a31e042df7" Panel.Bounds="33,40,432{5,2147483647},18*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="0b6fe23c-3377-47bd-bb2f-c1b996c0324b">
+                            <Add.Item>
+                                <Label RichText="Jaipongan &#xD;&#xA;Jam &#xD;&#xA;Jamrieng samai  &#xD;&#xA;Jangle pop &#xD;&#xA;Japanoise &#xD;&#xA;Jarana yucateca&#xD;&#xA;Jawaiian&#xD;&#xA;Jazz&#xD;&#xA;Jazz blues &#xD;&#xA;Jazz-funk" FontFamily="Open Sans" Id="5176965b-3a84-4a02-8f04-7abcb7e4298e" Panel.Bounds="43,92,162{5,2147483647},177{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="0b6fe23c-3377-47bd-bb2f-c1b996c0324b">
+                            <Add.Item>
+                                <Label RichText="Jaipongan &#xD;&#xA;Jam &#xD;&#xA;Jamrieng samai  &#xD;&#xA;Jangle pop &#xD;&#xA;Japanoise &#xD;&#xA;Jarana yucateca&#xD;&#xA;Jawaiian&#xD;&#xA;Jazz&#xD;&#xA;Jazz blues &#xD;&#xA;Jazz-funk" FontFamily="Open Sans" Id="931df950-3426-46b0-ac99-044a8712331d" Panel.Bounds="174,92,162{5,2147483647},177{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="0b6fe23c-3377-47bd-bb2f-c1b996c0324b">
+                            <Add.Item>
+                                <Label RichText="Jaipongan &#xD;&#xA;Jam &#xD;&#xA;Jamrieng samai  &#xD;&#xA;Jangle pop &#xD;&#xA;Japanoise &#xD;&#xA;Jarana yucateca&#xD;&#xA;Jawaiian&#xD;&#xA;Jazz&#xD;&#xA;Jazz blues &#xD;&#xA;Jazz-funk" FontFamily="Open Sans" Id="7ee7f590-066c-46a4-9ba1-0425803d53d2" Panel.Bounds="305,92,162{5,2147483647},177{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </ScreenPart.Scenes>
+</ScreenPart>

@@ -1,0 +1,70 @@
+﻿<?Infragistics.Models format="xaml" version="3" appVersion="9.2.0.72"?>
+<ScreenPart xmlns="http://prototypes.infragistics.com/"
+                                                                                     xmlns:d="http://prototypes.infragistics.com/views/design"
+                                                                                     Id="1f768a3c-0dcc-468e-bc62-72a417b97287" d:Design.ShowGuides="False">
+    <ScreenPart.Content>
+        <BorderedContent Width="200" Height="200" Background="#00FFFFFF" Id="0eff9e85-6e6c-4f00-a17f-befb1336177a">
+            <BorderedContent.Layers>
+                <Layer Id="d92ceb97-575a-4bae-a9e0-b79ae83b5f03" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="e3c236e2-b457-45fc-aed5-009fd3664827" Panel.Layout="Stretch" />
+            </BorderedContent.Layers>
+            <BorderedContent.Viewbox>
+                <Viewbox Id="af57f9b4-08cc-4fee-acee-2db724b2168d" />
+            </BorderedContent.Viewbox>
+            <BorderedContent.GuidesInfo>
+                <GuidesInfo Id="c52886b4-ed96-4c50-8701-20dab9666ac7" />
+            </BorderedContent.GuidesInfo>
+        </BorderedContent>
+    </ScreenPart.Content>
+    <ScreenPart.Device>
+        <DeviceInfo Id="none" Orientation="None" />
+    </ScreenPart.Device>
+    <ScreenPart.Scenes>
+        <Scene Title="Start" Created="10/31/2017 11:35:41" Id="c40d6161-d503-44a6-a223-7ee5b68c2e69">
+            <Scene.KeyFrames>
+                <KeyFrame Id="ac177a3b-f6da-42ee-801b-dec47fa67718">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="d92ceb97-575a-4bae-a9e0-b79ae83b5f03">
+                            <Add.Item>
+                                <Tabs Background="#FFD3E1B5" TabBackground="#FFBCD290" Id="af024d8b-3a4c-440b-b041-5c4e2dd22965" Panel.Bounds="-108,-82,450{5,2147483647},286{5,2147483647}">
+                                    <Tabs.Items>
+                                        <TabItem Header="Events" Id="ad9b17ae-c637-449a-bb6c-282ac84abac5">
+                                            <TabItem.Content>
+                                                <Container ClipToContainer="True" Id="d68bf247-154e-486a-9ca3-8a46d22d22c6" />
+                                            </TabItem.Content>
+                                        </TabItem>
+                                        <TabItem Header="Calendar" Id="924717d7-c1d2-4cd5-9f38-7bea0aa793b7">
+                                            <TabItem.Content>
+                                                <Container ClipToContainer="True" Id="99941985-6df3-459a-a0de-a3de54e29d33" />
+                                            </TabItem.Content>
+                                        </TabItem>
+                                        <TabItem Header="Places" Id="0b818db6-120c-46f9-ba0a-b667d129d813">
+                                            <TabItem.Content>
+                                                <Container ClipToContainer="True" Id="07c57c00-f2a2-45ef-bb0b-afc01fb71b46" />
+                                            </TabItem.Content>
+                                        </TabItem>
+                                        <TabItem Header="Artists" IsSelected="True" Id="6ee7348f-a86b-4080-aff9-2d6e88eba1dc">
+                                            <TabItem.Content>
+                                                <Container ClipToContainer="True" Id="a2f1091c-3163-44f1-8fa6-7f6800ddbf0d" />
+                                            </TabItem.Content>
+                                        </TabItem>
+                                        <TabItem Header="Gernes" Id="6716be17-4b52-4e87-97e9-92dbab911bd3">
+                                            <TabItem.Content>
+                                                <Container ClipToContainer="True" Id="1015a459-6236-42db-9034-860478c6365b" />
+                                            </TabItem.Content>
+                                        </TabItem>
+                                    </Tabs.Items>
+                                </Tabs>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="d92ceb97-575a-4bae-a9e0-b79ae83b5f03">
+                            <Add.Item>
+                                <Label RichText="&lt;Run FontSize=&quot;18&quot; &gt;A B C D E F G H I &lt;/Run&gt;&lt;Run FontSize=&quot;18&quot; Foreground=&quot;#FFE70000&quot; &gt;J &lt;/Run&gt;&lt;Run FontSize=&quot;18&quot; &gt;K L M N O P Q R S T U V X Y Z&lt;/Run&gt;" FontFamily="Open Sans" Id="3c4b7726-0329-4aa7-998e-84a31e042df7" Panel.Bounds="-75,-42,432{5,2147483647},18*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </ScreenPart.Scenes>
+</ScreenPart>

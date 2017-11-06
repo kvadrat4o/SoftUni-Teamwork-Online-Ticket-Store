@@ -1,0 +1,65 @@
+﻿<?Infragistics.Models format="xaml" version="3" appVersion="9.2.0.72"?>
+<ScreenPart xmlns="http://prototypes.infragistics.com/"
+                                                                                     xmlns:d="http://prototypes.infragistics.com/views/design"
+                                                                                     Id="ce06c567-d3df-49f7-a82e-e02acf871199" d:Design.ShowGuides="False">
+    <ScreenPart.Content>
+        <BorderedContent Width="450" Height="277" Background="#00FFFFFF" Id="019820dd-42cb-455a-b165-aa263f2ad885">
+            <BorderedContent.Layers>
+                <Layer Id="59c680f4-f6e6-48b9-a216-0346caa75645" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="21a64856-afb2-4f1c-8d29-08a365869223" Panel.Layout="Stretch" />
+            </BorderedContent.Layers>
+            <BorderedContent.Viewbox>
+                <Viewbox Id="bfb9774c-54b5-475e-9bd4-025cdd92c3a3" />
+            </BorderedContent.Viewbox>
+            <BorderedContent.GuidesInfo>
+                <GuidesInfo Id="a030c7fb-24f7-4398-a2f7-1f07ca865adb" />
+            </BorderedContent.GuidesInfo>
+        </BorderedContent>
+    </ScreenPart.Content>
+    <ScreenPart.Device>
+        <DeviceInfo Id="none" Orientation="None" />
+    </ScreenPart.Device>
+    <ScreenPart.Scenes>
+        <Scene Title="Start" Created="10/31/2017 10:52:46" Id="f585765b-5afc-4b75-828b-2853b13d4532">
+            <Scene.KeyFrames>
+                <KeyFrame Id="82c92b92-f29b-4f3d-bc20-17a7307a5b5b">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="59c680f4-f6e6-48b9-a216-0346caa75645">
+                            <Add.Item>
+                                <Tabs Background="#FFD3E1B5" TabBackground="#FFBCD290" Id="f18bb449-426b-490f-b590-895ca376c775" Panel.Bounds="0,0,450{5,2147483647},277{5,2147483647}">
+                                    <Tabs.Items>
+                                        <TabItem Header="Events" Id="09b1155e-c54a-4676-a812-d44fab3f173c">
+                                            <TabItem.Content>
+                                                <Container ClipToContainer="True" Id="b5fde6fe-e0c4-4234-9551-5b89a8a40f17" />
+                                            </TabItem.Content>
+                                        </TabItem>
+                                        <TabItem Header="Calendar" IsSelected="True" Id="e3fcabec-53da-45db-8fc8-09e51a1e1135">
+                                            <TabItem.Content>
+                                                <Container ClipToContainer="True" Id="50bfd882-3743-4643-8356-91c50a68b218" />
+                                            </TabItem.Content>
+                                        </TabItem>
+                                        <TabItem Header="Places" Id="3199ca19-3c5d-4718-83d6-02be676388bd">
+                                            <TabItem.Content>
+                                                <Container ClipToContainer="True" Id="58ca0148-8620-4b37-9fdc-8101312ddf56" />
+                                            </TabItem.Content>
+                                        </TabItem>
+                                        <TabItem Header="Artists" Id="cbee5a3b-e0ca-4f41-b306-df9a26c91477">
+                                            <TabItem.Content>
+                                                <Container ClipToContainer="True" Id="81485131-631f-4290-a918-1b3158f0bf94" />
+                                            </TabItem.Content>
+                                        </TabItem>
+                                        <TabItem Header="Gernes" Id="4b15c7ac-b0b4-4117-aa09-f3e46e7ea791">
+                                            <TabItem.Content>
+                                                <Container ClipToContainer="True" Id="869129b6-dc4f-4247-999e-25578c52d520" />
+                                            </TabItem.Content>
+                                        </TabItem>
+                                    </Tabs.Items>
+                                </Tabs>
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </ScreenPart.Scenes>
+</ScreenPart>

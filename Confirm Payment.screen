@@ -1,0 +1,66 @@
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.1000.51"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                   Id="8c2855fc-5a23-4e97-a3a7-38fe7fedc597">
+    <Page.Content>
+        <Content Width="1024" Height="768" Id="9c03e844-9d78-4f8b-b75a-4a6e9f9e3b10">
+            <Content.Layers>
+                <Layer Id="9da74ccf-67be-45c7-825a-58368bec3e83" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="b62f6369-60ff-44d8-aff7-a647815dec10" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="1024,768" Id="15f17bc2-7da0-44e7-a230-479cf4362194" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="98ed4361-db41-43c8-a9a7-38d8cbde1498" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="Browser" Orientation="None" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="11/06/2017 02:38:06" Id="0a6f71ee-a007-44da-a584-529510e60bb2">
+            <Scene.KeyFrames>
+                <KeyFrame Id="cf6f739f-fe3f-4df8-9bec-1199a99bdcd3">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="9da74ccf-67be-45c7-825a-58368bec3e83">
+                            <Add.Item>
+                                <Rectangle Id="c3ef611c-183f-4021-9185-de1792b28e5f" Panel.Bounds="356,133,307{5,2147483647},278{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="9da74ccf-67be-45c7-825a-58368bec3e83">
+                            <Add.Item>
+                                <Label RichText="&lt;Run FontSize=&quot;16&quot; FontWeight=&quot;Bold&quot; &gt;Confirm Payment&lt;/Run&gt;" FontFamily="Roboto" Id="a3adb753-0d71-4172-9657-32c60cab9fd7" Panel.Bounds="443,158,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="9da74ccf-67be-45c7-825a-58368bec3e83">
+                            <Add.Item>
+                                <Label RichText="60.00 BGN" FontSize="14" FontFamily="Roboto" FontStyle="Italic|Bold" Id="6f107052-a4dd-4d4c-a1b7-9e3b3dfa0103" Panel.Bounds="472,202,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="9da74ccf-67be-45c7-825a-58368bec3e83">
+                            <Add.Item>
+                                <Button Text="Confirm" Background="#FFA3E0AB" CornerRadius="10" FontFamily="Roboto" FontStyle="Bold" Id="0223afe0-047d-490d-9eef-c9ca344e2790" Panel.Bounds="554,301,80{5,2147483647},35{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="9da74ccf-67be-45c7-825a-58368bec3e83">
+                            <Add.Item>
+                                <Button Text="Cancel" CornerRadius="10" FontFamily="Roboto" FontStyle="Bold" Id="e0410fea-af02-4e6e-8bbc-e52e0f62bbb9" Panel.Bounds="385,301,80{5,2147483647},35{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="9da74ccf-67be-45c7-825a-58368bec3e83">
+                            <Add.Item>
+                                <Label RichText="Secured by " FontSize="16" FontFamily="Roboto" FontStyle="Bold" Opacity="0.4" Id="c6dd6fa5-9d3b-4333-9dff-32888e5249ac" Panel.Bounds="394,360,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="9da74ccf-67be-45c7-825a-58368bec3e83">
+                            <Add.Item>
+                                <Image SourcePath="assets/AM_mc_vs_dc_ae.jpg" Opacity="0.6" Id="099d5095-a89b-4ea0-9fee-a729030f14d4" Panel.Bounds="483,343,142{5,2147483647},48{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>

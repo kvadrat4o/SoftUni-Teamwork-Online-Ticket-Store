@@ -1,0 +1,66 @@
+﻿<?Infragistics.Models format="xaml" version="3" appVersion="9.2.0.72"?>
+<ScreenPart xmlns="http://prototypes.infragistics.com/"
+                                                                                     xmlns:d="http://prototypes.infragistics.com/views/design"
+                                                                                     Id="e14cb27d-771e-4d5f-9ada-2f15481582c9" d:Design.ShowGuides="False">
+    <ScreenPart.Content>
+        <BorderedContent Width="454" Height="282" Background="#00FFFFFF" Id="d26999da-0c49-46d9-b7ae-b22252f7d966">
+            <BorderedContent.Layers>
+                <Layer Id="df90d6fc-9aa5-46b1-b84f-2e3343630aa1" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="45c80f7b-31e6-45db-b629-f7e180732bac" Panel.Layout="Stretch" />
+            </BorderedContent.Layers>
+            <BorderedContent.Viewbox>
+                <Viewbox Id="18682a63-4924-4465-82cf-fb69074e431b" />
+            </BorderedContent.Viewbox>
+            <BorderedContent.GuidesInfo>
+                <GuidesInfo Id="d71cc143-1e04-4213-9adc-134f8dbfbbb4" />
+            </BorderedContent.GuidesInfo>
+        </BorderedContent>
+    </ScreenPart.Content>
+    <ScreenPart.Device>
+        <DeviceInfo Id="none" Orientation="None" />
+    </ScreenPart.Device>
+    <ScreenPart.Scenes>
+        <Scene Title="Start" Created="10/31/2017 11:21:20" Id="5787ff91-84bc-4ffd-94db-72129829e015">
+            <Scene.KeyFrames>
+                <KeyFrame Id="92b1ab36-7509-49b7-aaca-c25af0fd9f0a">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="df90d6fc-9aa5-46b1-b84f-2e3343630aa1">
+                            <Add.Item>
+                                <ContainerBox Background="#FFBCD290" Id="bff04bc3-c597-449c-a88d-f82004f70394" Panel.Bounds="0,0,454{5,2147483647},282{5,2147483647}">
+                                    <ContainerBox.Content>
+                                        <Container ClipToContainer="True" Id="d684f6ce-ba41-4344-ad74-9f15c2476ca3" />
+                                    </ContainerBox.Content>
+                                </ContainerBox>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="df90d6fc-9aa5-46b1-b84f-2e3343630aa1">
+                            <Add.Item>
+                                <MapMock MockType="Street Map" Id="a3a8f3e9-40fe-4421-8d3d-098da2006bbd" Panel.Bounds="12,14,243{5,2147483647},256{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="df90d6fc-9aa5-46b1-b84f-2e3343630aa1">
+                            <Add.Item>
+                                <Label RichText="Sports Hall, Sofia" FontSize="18" FontFamily="Open Sans" Id="5626624d-2ac5-4580-98b3-4eba685e08a7" Panel.Bounds="290,75,145{5,2147483647},65{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="df90d6fc-9aa5-46b1-b84f-2e3343630aa1">
+                            <Add.Item>
+                                <Icon CatalogId="fa-location-arrow" Id="86ea317a-39ca-4dbd-839b-b57282ba08b3" Panel.Bounds="261,75,22{5,2147483647},22{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="df90d6fc-9aa5-46b1-b84f-2e3343630aa1">
+                            <Add.Item>
+                                <Label RichText="Vasil Levski 73, Sofia, Bulgaria" FontSize="18" FontFamily="Open Sans" Id="f6716723-4a25-4014-a642-7e75fa66809c" Panel.Bounds="274,157,161{5,2147483647},108{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="df90d6fc-9aa5-46b1-b84f-2e3343630aa1">
+                            <Add.Item>
+                                <Icon Color="#FFE70000" CatalogId="linea-pin2" Id="cc5f825e-d811-4caf-8882-73fc79a32510" Panel.Bounds="106,175,32{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </ScreenPart.Scenes>
+</ScreenPart>

@@ -1,0 +1,42 @@
+﻿<?Infragistics.Models format="xaml" version="3" appVersion="9.2.1000.51"?>
+<ScreenPart xmlns="http://prototypes.infragistics.com/"
+                                                                                        xmlns:d="http://prototypes.infragistics.com/views/design"
+                                                                                        Id="93f3df0e-03c9-4654-b9c0-4ea0ab1ff283" d:Design.ShowGuides="False">
+    <ScreenPart.Content>
+        <BorderedContent Width="150" Height="28" Background="#00FFFFFF" Id="d4b0ed74-c828-4f8c-8ee3-e34c802f4927">
+            <BorderedContent.Layers>
+                <Layer Id="caf1aa9b-c036-49a8-984f-d3182d1a6f8d" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="a02d6225-5d7b-4e02-aa3f-ed13a5178824" Panel.Layout="Stretch" />
+            </BorderedContent.Layers>
+            <BorderedContent.Viewbox>
+                <Viewbox Id="0532b7e9-7cd0-4f05-a97d-3f3e427754b3" />
+            </BorderedContent.Viewbox>
+            <BorderedContent.GuidesInfo>
+                <GuidesInfo Id="d80e79ce-f04d-453f-b754-ae876dfe775f" />
+            </BorderedContent.GuidesInfo>
+        </BorderedContent>
+    </ScreenPart.Content>
+    <ScreenPart.Device>
+        <DeviceInfo Id="none" Orientation="None" />
+    </ScreenPart.Device>
+    <ScreenPart.Scenes>
+        <Scene Title="Start" Created="11/05/2017 00:06:31" Id="235eb919-c641-4935-9233-34e4200183db">
+            <Scene.KeyFrames>
+                <KeyFrame Id="17760e10-dd0d-420e-962f-06a9ef5cb17a">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="caf1aa9b-c036-49a8-984f-d3182d1a6f8d">
+                            <Add.Item>
+                                <ComboBox Hint="Latest upcoming" Id="b3668aff-1d92-4548-a034-bfeb10af85a5" Panel.Bounds="0,0,150{5,2147483647},28{5,2147483647}">
+                                    <ComboBox.Items>
+                                        <Item Text="24 Nov Lili Ivanova" Id="9ee02b85-434a-4a49-8602-f0e315650954" />
+                                        <Item Text="18 Dec Salsa Party" Id="5eb30098-8d96-4c3d-a22f-e05d259c357b" />
+                                    </ComboBox.Items>
+                                </ComboBox>
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </ScreenPart.Scenes>
+</ScreenPart>

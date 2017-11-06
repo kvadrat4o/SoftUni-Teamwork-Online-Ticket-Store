@@ -1,0 +1,51 @@
+﻿<?Infragistics.Models format="xaml" version="3" appVersion="9.2.0.72"?>
+<ScreenPart xmlns="http://prototypes.infragistics.com/"
+                                                                                     xmlns:d="http://prototypes.infragistics.com/views/design"
+                                                                                     Id="9281668f-1e85-4578-934c-4485d9f464dc" d:Design.ShowGuides="False">
+    <ScreenPart.Content>
+        <BorderedContent Width="200" Height="200" Background="#00FFFFFF" Id="2bf5de7a-f019-4dd2-a434-69ba5ddf536f">
+            <BorderedContent.Layers>
+                <Layer Id="daac3932-5ad1-4b25-a7eb-500a03b6c429" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="680b85e4-394c-4334-8a6a-407cbf9252e9" Panel.Layout="Stretch" />
+            </BorderedContent.Layers>
+            <BorderedContent.Viewbox>
+                <Viewbox Id="10c61150-be05-4dd4-b3cf-8cacf4ec6ff0" />
+            </BorderedContent.Viewbox>
+            <BorderedContent.GuidesInfo>
+                <GuidesInfo Id="15fd5f30-ae0c-4a20-9d8b-5af575d4f44f" />
+            </BorderedContent.GuidesInfo>
+        </BorderedContent>
+    </ScreenPart.Content>
+    <ScreenPart.Device>
+        <DeviceInfo Id="none" Orientation="None" />
+    </ScreenPart.Device>
+    <ScreenPart.Scenes>
+        <Scene Title="Start" Created="10/31/2017 09:51:24" Id="fc4f56ce-3fe1-4186-86ba-07cc3824f5c5">
+            <Scene.KeyFrames>
+                <KeyFrame Id="91a3afd3-6e7e-4109-9f5b-49c8ac9ff3e5">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="daac3932-5ad1-4b25-a7eb-500a03b6c429">
+                            <Add.Item>
+                                <ScreenPartInstance TemplateReference="/Screenparts/Screenpart2.screenpart" Id="802cb7a8-982a-4134-86a0-3a68245159c5" Panel.Bounds="-94,-65,0*,0*">
+                                    <ScreenPartInstance.Customizations>
+                                        <Add Property="Panel.Children" Target="aa8fd91b-1083-4442-8a73-1c4c7ad5463b.c504da0b-2f24-4c14-8d4c-c63351a63d8f">
+                                            <Add.Item>
+                                                <ScreenPartInstance TemplateReference="/Screenparts/Calendar.screenpart" Id="d071084f-db22-48da-b625-0f628f6260f7" Panel.Bounds="-2,-1,0*,0*" />
+                                            </Add.Item>
+                                        </Add>
+                                        <Remove Target="aa8fd91b-1083-4442-8a73-1c4c7ad5463b.48fb0c00-8a91-4003-a7f2-2cdebdfd27cf" />
+                                        <Remove Target="aa8fd91b-1083-4442-8a73-1c4c7ad5463b.bfdb537e-814c-4fd7-a1d3-aaa20610bb02" />
+                                        <Remove Target="aa8fd91b-1083-4442-8a73-1c4c7ad5463b.f18bb449-426b-490f-b590-895ca376c775" />
+                                        <Remove Target="aa8fd91b-1083-4442-8a73-1c4c7ad5463b.0fe64706-6de9-4cb2-967c-7b9921541d4e" />
+                                        <Remove Target="aa8fd91b-1083-4442-8a73-1c4c7ad5463b.fbb570e2-2230-4274-ae4d-da13874ae5e4" />
+                                        <Remove Target="aa8fd91b-1083-4442-8a73-1c4c7ad5463b.4fbae75f-a337-4a3c-821f-2f98162df0b0" />
+                                    </ScreenPartInstance.Customizations>
+                                </ScreenPartInstance>
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </ScreenPart.Scenes>
+</ScreenPart>

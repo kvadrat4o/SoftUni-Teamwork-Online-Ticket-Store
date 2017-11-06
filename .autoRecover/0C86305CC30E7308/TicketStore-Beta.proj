@@ -1,0 +1,11 @@
+﻿<?Infragistics.Models format="xaml" version="4" appVersion="9.2.1000.51"?>
+<Project xmlns="http://prototypes.infragistics.com/"
+                                                                                     Id="GS44WR62MIRU" StartScreens="/Home (Logged).screen" IndigoVersion="9" RecentColors="#FF698335,#FFD3E1B5,#FFBCD290,#00FFFFFF,#FF75D181,#FF000000,#FFE2E2E2,#FF8DAE47,#FF465724,#FFA6C36B" LastUsedFonts="Open Sans">
+    <Project.Defaults>
+        <ProjectDefaults Viewport="1024,768">
+            <ProjectDefaults.Device>
+                <DeviceInfo Id="Browser" Orientation="None" />
+            </ProjectDefaults.Device>
+        </ProjectDefaults>
+    </Project.Defaults>
+</Project>

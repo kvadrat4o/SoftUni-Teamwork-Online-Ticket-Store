@@ -1,0 +1,61 @@
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.0.72"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                xmlns:d="http://prototypes.infragistics.com/views/design"
+                                                                                Id="4c12fbe3-c274-4a71-9135-6a7183d1de6f" d:Design.ShowGuides="False">
+    <Page.Content>
+        <Content Width="1024" Height="768" Id="8e91ac60-9700-43d5-8d01-244c578f557c">
+            <Content.Layers>
+                <Layer Id="bcf798e6-f6ad-451f-ab90-48c9e2560e7a" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="95065aeb-6c56-450b-8aba-20f851757bb8" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="1024,768" Id="667ddd7e-7f64-4be7-988a-0e4b55c8aa07" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="b227c98d-fb43-4e8a-9783-c7a99c790a13" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="Browser" Orientation="None" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="10/31/2017 18:46:50" Id="913778c2-7988-4eaa-bb47-ca3ca0b6c1e5">
+            <Scene.KeyFrames>
+                <KeyFrame Id="d5fb34ee-7481-4eab-817d-dd98884062ea">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="bcf798e6-f6ad-451f-ab90-48c9e2560e7a">
+                            <Add.Item>
+                                <BootstrapBox Id="a717865a-0647-4f91-837b-59b0ab3a54cb" Panel.Layout="Stretch">
+                                    <BootstrapBox.Content>
+                                        <BootstrapContainer Id="19c1dd05-cc4a-4631-88ff-f9fd3e8dd3fc">
+                                            <BootstrapContainer.Children>
+                                                <Row Id="b8856e7f-83b2-4403-9220-39bd2649e5f3">
+                                                    <Row.Children>
+                                                        <Column Id="d412d240-3a3c-481b-9420-0855723f2274" BootstrapContainer.SpanSm="12" />
+                                                    </Row.Children>
+                                                </Row>
+                                                <Row Id="6323e983-9b33-4964-bf5b-69b74be130ae">
+                                                    <Row.Children>
+                                                        <Column Id="b9af626b-bdc2-48f1-881e-2e14cee8459b" BootstrapContainer.SpanSm="9" />
+                                                        <Column Id="4cced9c4-6c04-451c-8296-47142b27fdf6" BootstrapContainer.SpanSm="3" />
+                                                    </Row.Children>
+                                                </Row>
+                                                <Row Id="00e37a2f-fa4c-49ba-af31-0a0eb47e9cd7">
+                                                    <Row.Children>
+                                                        <Column Id="7973d983-8523-45a1-85e2-0a15a7339e1d" BootstrapContainer.SpanSm="12" />
+                                                    </Row.Children>
+                                                </Row>
+                                            </BootstrapContainer.Children>
+                                        </BootstrapContainer>
+                                    </BootstrapBox.Content>
+                                </BootstrapBox>
+                            </Add.Item>
+                        </Add>
+                        <Set Property="Content.AutoHeight" Value="True" Target="8e91ac60-9700-43d5-8d01-244c578f557c" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>
